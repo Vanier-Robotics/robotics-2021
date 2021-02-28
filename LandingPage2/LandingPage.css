@@ -1,0 +1,59 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(Catwalzhari-ywL2Y.ttf);
+}
+
+h1{
+	font-family: myFirstFont;
+	color: #FFFF00;
+	font-size: 500%; 
+	position: absolute; top: -52px; left: 210px;
+	-webkit-text-stroke-width: 4px;
+  	-webkit-text-stroke-color: black;
+}
+
+.english {
+	z-index: 1;
+	font-family: myFirstFont;
+	cursor: pointer;
+	position: absolute; top:380px; left: 660px;
+	color: black;
+	font-size: 200%;
+	text-decoration: none;
+}
+
+.french {
+	z-index: 1;
+	font-family: myFirstFont;
+	cursor: pointer;
+	position: absolute; top:190px; left: 975px;
+	color: black;
+	font-size: 200%;
+	text-decoration: none;
+}
+
+.emperor1 {
+	position: absolute; top: 80px; left: 480px;
+}
+
+.emperor2 {
+	position: absolute; top: 280px; left: 0px;
+}
+
+.crclogo {
+	position: absolute; top: 0px; left: 0px;
+}
+
+.hover1:hover + .shadow1 {
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+.hover2:hover + .shadow2 {
+	filter: drop-shadow(0px 0px 20px black);
+}
+
+body {
+	background-image: url('romanempire.jpg');
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
