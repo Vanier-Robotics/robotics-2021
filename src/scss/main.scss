@@ -1,0 +1,16 @@
+@import "landing";
+@import "text-heavy";
+
+@font-face {
+	font-family: myFirstFont;
+	src        : url(Catwalzhari-ywL2Y.ttf);
+}
+
+body {
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	background-position: center;
+	min-height         : 100vh;
+	overflow-x         : hidden;
+	overflow-y         : hidden;
+}

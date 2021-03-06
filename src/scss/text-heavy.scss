@@ -1,0 +1,181 @@
+
+#text-heavy {
+	background-image   : url('battlefield.jpg');
+}
+
+/*The navigation bar*/
+.navbar {
+	width           : 346px;
+	/*The dimensions of the navigation bar*/
+	height          : 50px;
+	/*The dimensions of the navigation bar*/
+	border          : solid 2px black;
+	/*Adding a border*/
+	background-color: white;
+	/*Setting the background of the navigation bar to white*/
+}
+
+/*The Vanier Logo*/
+.vanier {
+	position: absolute;
+	top     : 5px;
+	left    : 15px;
+	/*Positioning the vanier logo*/
+}
+
+/*The CRC Logo*/
+.crclogo {
+	position: absolute;
+	top     : 5px;
+	left    : 160px;
+	/*Positioning the crc logo*/
+}
+
+/*Language option*/
+.french {
+	font-family    : myFirstFont;
+	/*Setting the font for the subtitle (french)*/
+	cursor         : pointer;
+	/*Chaning the cursor on hover */
+	position       : absolute;
+	top            : 8px;
+	left           : 240px;
+	/*Positioning the subtitle (french)*/
+	color          : black;
+	/*Setting the subtitle's color*/
+	font-size      : 250%;
+	/*Changing the font size of the subtitle (french)*/
+	text-decoration: none;
+	/*Removing text decoration*/
+}
+
+/*The center window */
+.window {
+	position        : absolute;
+	/*Positioning the center window*/
+	top             : 80px;
+	/*Positioning the center window*/
+	left            : 260px;
+	/*Positioning the center window*/
+	width           : 1000px;
+	/*window dimensions*/
+	height          : 640px;
+	/*window dimensions*/
+	border          : solid 2px black;
+	/*Adding a border*/
+	background-color: rgba(255, 255, 255, 0.5);
+	/*Making only the window half transparent*/
+	overflow-y      : scroll;
+	/*Adding a vertical scrollbar*/
+}
+
+/*The window title*/
+.title {
+	font-family    : myFirstFont;
+	/*Setting the font for the title*/
+	position       : absolute;
+	top            : -25px;
+	left           : 10px;
+	/*Positioning the title*/
+	color          : black;
+	/*Setting the title's color*/
+	font-size      : 250%;
+	/*Changing the font size of the title*/
+	text-decoration: none;
+	/*Removing text decoration*/
+}
+
+/*The set of paragraph and image*/
+.paragraph1 {
+	font-family     : myFirstFont;
+	position        : absolute;
+	top             : 50px;
+	left            : 40px;
+	width           : 900px;
+	height          : 200px;
+	border          : solid 2px black;
+	background-color: white;
+}
+
+.paragraph2 {
+	font-family     : myFirstFont;
+	position        : absolute;
+	top             : 300px;
+	left            : 40px;
+	width           : 900px;
+	height          : 200px;
+	border          : solid 2px black;
+	background-color: white;
+}
+
+.paragraph3 {
+	font-family     : myFirstFont;
+	position        : absolute;
+	top             : 550px;
+	left            : 40px;
+	width           : 900px;
+	height          : 200px;
+	border          : solid 2px black;
+	background-color: white;
+}
+
+.paragraph4 {
+	font-family     : myFirstFont;
+	position        : absolute;
+	top             : 800px;
+	left            : 40px;
+	width           : 900px;
+	height          : 200px;
+	border          : solid 2px black;
+	background-color: white;
+}
+
+/*The paragraph box*/
+.text {
+	position        : absolute;
+	/*Positioning the paragraph box*/
+	top             : -2px;
+	/*Positioning the paragraph box*/
+	left            : -2px;
+	/*Positioning the paragraph box*/
+	width           : 599px;
+	/*Dimensions of the paragraph box*/
+	height          : 201px;
+	/*Dimensions of the paragraph box*/
+	border          : solid 2px black;
+	/*Adding a border*/
+	background-color: white;
+	/*Setting the box's background to white*/
+}
+
+/*The paragraph box's subtitle*/
+.subtitle {
+	font-family    : myFirstFont;
+	/*Setting the font for the subtitle*/
+	position       : absolute;
+	top            : -15px;
+	left           : 5px;
+	/*Positioning the subtitle*/
+	color          : black;
+	/*Setting the subtitle's color*/
+	font-size      : 150%;
+	/*Changing the font size of the subtitle*/
+	text-decoration: none;
+	/*Removing text decoration*/
+}
+
+/*The set's image*/
+.image {
+	position: absolute;
+	/*Positioning the image*/
+	left    : 600px;
+	/*Positioning the image*/
+}
+
+/*The actual paragraph content*/
+p {
+	position: absolute;
+	/*Positioning the paragraph content*/
+	top     : 15px;
+	/*Positioning the paragraph content*/
+}
