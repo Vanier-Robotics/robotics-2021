@@ -1,0 +1,39 @@
+# File Directory of robotics-2021
+- **[assets](./assets/)**
+	- **[fonts](./assets/fonts/)**
+	- **[images](./assets/images/)**
+		- **[emperors](./assets/images/emperors/)**
+			- [3d1f201ab800272392b6a13e821f480c.jpg](./assets/images/emperors/3d1f201ab800272392b6a13e821f480c.jpg)
+			- [4dde1d408217f33b4bf1f543f833e690.jpg](./assets/images/emperors/4dde1d408217f33b4bf1f543f833e690.jpg)
+			- [e143_1.jpg](./assets/images/emperors/e143_1.jpg)
+			- [main-image.jpg](./assets/images/emperors/main-image.jpg)
+			- [Nero_1.jpg](./assets/images/emperors/Nero_1.jpg)
+			- [S202.jpg](./assets/images/emperors/S202.jpg)
+			- [u-g-PK9NK70.jpg](./assets/images/emperors/u-g-PK9NK70.jpg)
+		- **[map](./assets/images/map/)**
+			- [Ampitheater.svg](./assets/images/map/Ampitheater.svg)
+			- [Archives.png](./assets/images/map/Archives.png)
+			- [Artillery.svg](./assets/images/map/Artillery.svg)
+			- [CRC logo.png](./assets/images/map/CRC logo.png)
+			- [Map of roman empire (placement).jpg](./assets/images/map/Map of roman empire (placement).jpg)
+			- [Map of roman empire.jpg](./assets/images/map/Map of roman empire.jpg)
+			- [Militia.svg](./assets/images/map/Militia.svg)
+			- [Warfront.png](./assets/images/map/Warfront.png)
+		- **[scrolls](./assets/images/scrolls/)**
+			- [Closed scroll.png](./assets/images/scrolls/Closed scroll.png)
+			- [Horizontal pirate scroll.JPG](./assets/images/scrolls/Horizontal pirate scroll.JPG)
+			- [Long horizontal scroll.png](./assets/images/scrolls/Long horizontal scroll.png)
+			- [Longer horizontal map.png](./assets/images/scrolls/Longer horizontal map.png)
+			- [Vertical scroll.JPG](./assets/images/scrolls/Vertical scroll.JPG)
+		- **[team members](./assets/images/team members/)**
+			- [Aakarsh Dhar.jpg](./assets/images/team members/Aakarsh Dhar.jpg)
+			- [Anastassiya Kim.jpg](./assets/images/team members/Anastassiya Kim.jpg)
+			- [Cassidy Grande.jpg](./assets/images/team members/Cassidy Grande.jpg)
+			- [Jad Ashkar.jpg](./assets/images/team members/Jad Ashkar.jpg)
+			- [Julien Chalifoux.jpg](./assets/images/team members/Julien Chalifoux.jpg)
+			- [Mada Matar.jpg](./assets/images/team members/Mada Matar.jpg)
+			- [Nicholas Katsis.jpg](./assets/images/team members/Nicholas Katsis.jpg)
+			- [Vanessa Siev.jpg](./assets/images/team members/Vanessa Siev.jpg)
+	- **[javascript](./assets/javascript/)**
+	- **[styles](./assets/styles/)**
+- [README.md](./README.md)
