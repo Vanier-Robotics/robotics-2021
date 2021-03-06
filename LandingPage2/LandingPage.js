@@ -22,9 +22,9 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-	var visited = getCookie("visited"); 
-	if (visited == "english") {
-		window.location = "https://www.facebook.com/";
-	} else if (visited == 'french')
-    window.location = "https://fr-ca.facebook.com/";
+	var language = getCookie("language"); 
+	// if (language == "english") {
+	// 	window.location = "https://www.facebook.com/";
+	// } else if (language == 'french')
+    // window.location = "https://fr-ca.facebook.com/";
 }

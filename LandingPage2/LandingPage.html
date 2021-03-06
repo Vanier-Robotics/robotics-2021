@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Landing Page</title>
 	<link rel="stylesheet" type="text/css" href="LandingPage.css">
 	<script type="text/javascript" src="LandingPage.js"></script>
 </head>
+
 <body onload="checkCookie();">
-	<h1>Welcome to Vanier Robotics 2021!</h1> 
+	<div id="landing-desktop">
+		<h1>Welcome to Vanier Robotics 2021!</h1>
 
-	<div class="hover2">
-		<a href="https://www.google.com/" class="english" onclick="setCookie('visited', 'english', 365);">English</a>
-	</div>
-	<div class="shadow2">
-		<img class= "emperor2" src="emperor2.png" height="580px" width="1420px";>
-	</div>
+		<div class="hover2">
+			<a href="https://www.google.com/" class="language english"
+				onclick="setCookie('language', 'english', 365);">English</a>
+		</div>
+		<div class="shadow2">
+			<img class="emperor2" src="emperor2-edit.png">
+		</div>
 
-	<div class="hover1">
-		<a href="https://www.google.com/" class="french" onclick="setCookie('visited', 'french', 365);">French</a>
+		<div class="hover1">
+			<a href="https://www.google.com/" class="language french"
+				onclick="setCookie('language', 'french', 365);">French</a>
+		</div>
+		<div class="shadow1">
+			<img class="emperor1" src="emperor1-edit.png">
+		</div>
+
+		<a href="https://robo-crc.ca/">
+			<img class="crclogo" src="crclogo.png" height="100px" width="100px">
+		</a>
 	</div>
-	<div class="shadow1">
-		<img class= "emperor1" src="emperor1.png" height="700px" width="1335px";>
+	<div id="landing-mobile">
+		<h1>Welcome to Vanier Robotics 2021!</h1>
+		<div class=selector>
+			<div class="lang-select" onclick="setCookie('language', 'french', 365);">
+				French
+			</div>
+			<div class="lang-select" onclick="setCookie('language', 'english', 365);">
+				English
+			</div>
+		</div>
 	</div>
-	
-	<a href="https://robo-crc.ca/">
-		<img class= "crclogo" src="crclogo.png" height="100px" width="100px">
-	</a>
 </body>
+
 </html>
