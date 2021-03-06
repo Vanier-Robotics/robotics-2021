@@ -11,29 +11,23 @@ h1 {
 	-webkit-text-stroke-width: 4px;
 	-webkit-text-stroke-color: black;
 }
-
-.english {
+.language { 
 	z-index: 1;
 	font-family: myFirstFont;
 	cursor: pointer;
 	position: absolute;
-	top: 380px;
-	left: 660px;
 	color: black;
 	font-size: 200%;
 	text-decoration: none;
 }
+.english {
+	top: 380px;
+	left: 660px;
+}
 
 .french {
-	z-index: 1;
-	font-family: myFirstFont;
-	cursor: pointer;
-	position: absolute;
 	top: 190px;
-	left: 975px;
-	color: black;
-	font-size: 200%;
-	text-decoration: none;
+	left: 975px;	
 }
 
 .emperor1 {
@@ -80,20 +74,48 @@ body {
 }
 .selector{
 	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
 }
 .lang-select {
-	width: 100vw;
-	background-color: green;
+	max-width: 100vw;
+	/* min-width: 30vw; */
+	font-size: 5em;
 	padding: 4rem;
+	font-family: myFirstFont;
+	display: block;
+	box-sizing: border-box;
 }
-.lang-select:not(:last-child) {
-	margin-right: 1rem;
+.lang-select:hover {
+	/* background-color: rgba(0, 0, 0, 0.4);
+	border-radius:  */
+	filter: drop-shadow(0.2em 0.2em 0.5em black);
+	cursor: pointer;
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1200px), (pointer: coarse) {
 	#landing-desktop {
 		display: none;
 	}
 	#landing-mobile {
 		display: block;
+	}
+	/* .lang-select {
+		min-width: 60vw;
+	} */
+	.selector {
+		min-width: 100vw;
+		min-height: 60vh;
+	}
+	h1 {
+		font-size: 7em;
+	}
+	body {
+		min-width: 100vw;
+		min-height: 100vh;
+		max-width: 100vw;
+		max-height: 100vh;
 	}
 }
