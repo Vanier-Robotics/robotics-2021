@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>Landing Page</title>
+		<!-- <link rel="stylesheet" type="text/css" href="LandingPage.css"> -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../assets/stylesheets/stylesheet.css"
+		/>
+		<script
+			type="text/javascript"
+			src="/assets/scripts/LandingPage.js"
+		></script>
+	</head>
 
-<head>
-	<title>Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="LandingPage.css">
-	<script type="text/javascript" src="LandingPage.js"></script>
-</head>
-
-<body onload="checkCookie();">
-	<div id="landing-desktop">
-		<h1>Welcome to Vanier Robotics 2021!</h1>
-
-		<div class="hover2">
-			<a href="https://www.google.com/" class="language english"
-				onclick="setCookie('language', 'english', 365);">English</a>
-		</div>
-		<div class="shadow2">
-			<img class="emperor2" src="emperor2-edit.png">
-		</div>
-
-		<div class="hover1">
-			<a href="https://www.google.com/" class="language french"
-				onclick="setCookie('language', 'french', 365);">French</a>
-		</div>
-		<div class="shadow1">
-			<img class="emperor1" src="emperor1-edit.png">
-		</div>
-
-		<a href="https://robo-crc.ca/">
-			<img class="crclogo" src="crclogo.png" height="100px" width="100px">
+	<body id="landing" onload="checkCookie();">
+		<a href="https://robo-crc.ca/" class=" crclogo grayscale">
+			<img
+				src="crclogo.png"
+				height="100px"
+				width="100px"
+			/>
 		</a>
-	</div>
-	<div id="landing-mobile">
-		<h1>Welcome to Vanier Robotics 2021!</h1>
-		<div class=selector>
-			<div class="lang-select" onclick="setCookie('language', 'french', 365);">
-				French
-			</div>
-			<div class="lang-select" onclick="setCookie('language', 'english', 365);">
-				English
+		<div id="landing-desktop">
+			<h1 class="landing-title">Welcome to Vanier Robotics 2021!</h1>
+			<div class="selector nowrap">
+				<a
+					href="https://www.google.com/"
+					onclick="setCookie('language', 'english', 365);"
+					class="lang-emperor emperor2 shadow"
+				>
+					<img src="/assets/images/landing/emperor2-edit.png"
+				/></a>
+
+				<a
+					href="https://www.google.com/"
+					onclick="setCookie('language', 'french', 365);"
+					class="lang-emperor emperor1 shadow"
+				>
+					<img src="/assets/images/landing/emperor1-edit.png" />
+				</a>
 			</div>
 		</div>
-	</div>
-</body>
-
+		<div id="landing-mobile">
+			<h1 class="landing-title">Welcome to Vanier Robotics 2021!</h1>
+			<div class="selector center">
+				<div
+					class="lang-select"
+					onclick="setCookie('language', 'french', 365);"
+				>
+					French
+				</div>
+				<div
+					class="lang-select"
+					onclick="setCookie('language', 'english', 365);"
+				>
+					English
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
