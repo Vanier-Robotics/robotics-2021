@@ -5,136 +5,128 @@
 }
 
 body {
-	background-image: url('battlefield.jpg'); /*To set the page's background*/
-	background-repeat: no-repeat; /*To avoid the backgroudn from repeating*/
-  	background-size: cover; /*To cover the entire page with the background*/ 
-  	background-position: 0px -115px; /*To position the background image*/
-	overflow-x: hidden; /*To hide the horizontal scrollbar*/ 
-	overflow-y: hidden; /*To hide the vertical scrollbar*/
+	background-image: url("battlefield.jpg"); /*To set the page's background*/
 }
 
 /*The navigation bar*/
 .navbar {
-	width: 346px; /*The dimensions of the navigation bar*/
-	height: 50px; /*The dimensions of the navigation bar*/
-	border: solid 2px black; /*Adding a border*/ 
+	display: fixed;
+	border: solid 2px black; /*Adding a border*/
 	background-color: white; /*Setting the background of the navigation bar to white*/
+	padding: 1em;
+	width: 346px;
 }
 
 /*The Vanier Logo*/
-.vanier {
-	position: absolute; top:5px; left: 15px; /*Positioning the vanier logo*/
+.vanier, .crclogo {
+	vertical-align: text-bottom;
 }
 
 /*The CRC Logo*/
 .crclogo {
-	position: absolute; top:5px; left: 160px; /*Positioning the crc logo*/
+
 }
 
 /*Language option*/
 .french {
 	font-family: myFirstFont; /*Setting the font for the subtitle (french)*/
 	cursor: pointer; /*Chaning the cursor on hover */
-	position: absolute; top:8px; left: 240px; /*Positioning the subtitle (french)*/
 	color: black; /*Setting the subtitle's color*/
 	font-size: 250%; /*Changing the font size of the subtitle (french)*/
-	text-decoration: none; /*Removing text decoration*/ 
+	text-decoration: none; /*Removing text decoration*/
 }
 
 /*The center window */
 .window {
-	position: absolute; /*Positioning the center window*/
-	top: 80px; /*Positioning the center window*/
-	left: 260px; /*Positioning the center window*/
-	width: 1000px; /*window dimensions*/ 
-	height: 640px;  /*window dimensions*/
-	border: solid 2px black; /*Adding a border*/ 
-	background-color: rgba(255,255,255,0.5); /*Making only the window half transparent*/ 
-	overflow-y: scroll; /*Adding a vertical scrollbar*/ 
+	width: 90vw; /*window dimensions*/
+	height: 80vh; /*window dimensions*/
+	border: solid 2px black; /*Adding a border*/
+	background-color: rgba(
+		255,
+		255,
+		255,
+		0.5
+	); /*Making only the window half transparent*/
+	overflow-y: scroll; /*Adding a vertical scrollbar*/
+	/* text-align: center; */
+	margin: auto;
 }
 
 /*The window title*/
 .title {
 	font-family: myFirstFont; /*Setting the font for the title*/
-	position: absolute; top:-25px; left: 10px; /*Positioning the title*/
-	color: black; /*Setting the title's color*/
 	font-size: 250%; /*Changing the font size of the title*/
-	text-decoration: none; /*Removing text decoration*/ 
+	text-decoration: none; /*Removing text decoration*/
+	text-align: center;
 }
 
-/*The set of paragraph and image*/ 
-.paragraph1 {
-	font-family: myFirstFont; 
-	position: absolute; 
-	top: 50px; 
-	left: 40px;
-	width: 900px; 
-	height: 200px; 
-	border: solid 2px black; 
+/*The set of paragraph and image*/
+.paragraph {
+	font-family: 'Times New Roman', Times, serif;
+	border: solid 2px black;
 	background-color: white;
+	display: flex;
+	min-width: 100%;
+	box-sizing: border-box;
+	padding: 1em;
 }
-
-.paragraph2 {
-	font-family: myFirstFont;
-	position: absolute; 
-	top: 300px; 
-	left: 40px;
-	width: 900px; 
-	height: 200px; 
-	border: solid 2px black; 
-	background-color: white;
-}
-
-.paragraph3 {
-	font-family: myFirstFont;
-	position: absolute; 
-	top: 550px; 
-	left: 40px;
-	width: 900px; 
-	height: 200px; 
-	border: solid 2px black; 
-	background-color: white;
-}
-
-.paragraph4 {
-	font-family: myFirstFont;
-	position: absolute; 
-	top: 800px; 
-	left: 40px;
-	width: 900px; 
-	height: 200px; 
-	border: solid 2px black; 
-	background-color: white;
+.paragraph:not(:last-child) {
+	margin-bottom: 1em;
 }
 
 /*The paragraph box*/
 .text {
-	position: absolute; /*Positioning the paragraph box*/
-	top: -2px; /*Positioning the paragraph box*/
-	left: -2px; /*Positioning the paragraph box*/
-	width: 599px; /*Dimensions of the paragraph box*/
-	height: 201px; /*Dimensions of the paragraph box*/
-	border: solid 2px black; /*Adding a border*/ 
-	background-color: white; /*Setting the box's background to white*/
+	/* width: 90%; */
+	flex-grow: 2;
+	/* border: solid 2px black; Adding a border */
+	font-size: 1.5rem;
+}
+.text > p {
+	padding: 1em;
+	text-align: justify;
 }
 
 /*The paragraph box's subtitle*/
 .subtitle {
-	font-family: myFirstFont; /*Setting the font for the subtitle*/
-	position: absolute; top:-15px; left: 5px; /*Positioning the subtitle*/
-	color: black; /*Setting the subtitle's color*/
-	font-size: 150%; /*Changing the font size of the subtitle*/
-	text-decoration: none; /*Removing text decoration*/ 
+	font-family: myFirstFont;
+	font-size: 150%;
+	text-decoration: none; /*Removing text decoration*/
+	text-align: center;
 }
+.subtitle.right {
+	text-align: right;
+}
+.subtitle.left {
+	text-align: left;
+}
+
+
 
 /*The set's image*/
 .image {
-	position: absolute; /*Positioning the image*/
-	left: 600px; /*Positioning the image*/
+	height: 7em;
+	flex-grow: 1;
+	border-radius: 1em;
+	max-height: 100%;
+}
+img.right {
+	float: right;
+	margin-left: 1em;
+}
+img.left {
+	float:left;
+	margin-right: 1em;
 }
 
-/*The actual paragraph content*/ 
-p {
-	position: absolute; /*Positioning the paragraph content*/
-	top: 15px; /*Positioning the paragraph content*/
+@media screen and (max-width: 1200px), (pointer: coarse){
+	body {
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.window {
+		height: initial; /*window dimensions*/
+		width: 90vw;
+		max-height: initial;
+	}
 }
