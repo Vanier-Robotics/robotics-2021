@@ -1,5 +1,5 @@
 #map-page {
-	background-image: url("romanempire.png");
+	background-image: url("/assets/images/backgrounds/romanempire.png");
 }
 #map {
 	position: relative;
@@ -16,6 +16,21 @@
 	padding-right: 0.5em;
 	&:hover {
 		box-shadow: 0 5px 50px 0 #f7ff00 inset;
+	}
+}
+
+.select.map {
+	font-size: 3em;
+	padding: 0.5em;
+	min-width: 30vw;
+	text-align: center;
+	border-radius: 1em;
+	background-color: rgba(0, 0, 0, 0.9);
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	&:not(:last-child){
+		margin-bottom: 0.5em;
 	}
 }
 

@@ -39,31 +39,17 @@
 	left      : 0px;
 	box-sizing: border-box;
 }
-.grayscale {
-	filter: grayscale(90%);
-	transition: filter 0.2s;
-}
-.grayscale:hover {
-	filter: grayscale(0%);
-}
-/* .hover1:hover + .shadow1 {
-	filter: drop-shadow(0px 0px 20px black);
-}
-
-.hover2:hover + .shadow2 {
-	filter: drop-shadow(0px 0px 20px black);
-} */
 
 #landing {
 	background-image: url("/assets/images/backgrounds/romanempire.jpg");
 }
 
-#landing-desktop {
+.desktop {
 	// display: flex;
 	// flex-wrap: nowrap;
 }
 
-#landing-mobile {
+.mobile {
 	display: none;
 }
 
@@ -72,10 +58,14 @@
 	flex-wrap      : wrap;
 	padding        : 1rem;
 	justify-content: center;
-}
 
-.selector.center {
-	align-items: center;
+	&.center {
+		align-items: center;
+	}
+
+	&.column {
+		flex-direction: column;
+	}
 }
 
 .nowrap {
@@ -84,49 +74,48 @@
 
 .lang-emperor {}
 
-.shadow {
-	transition: filter 0.2s;
-}
-.shadow:hover {
-	filter: drop-shadow(0.2em 0.2em 0.5em black);
+
+.select {
+	max-width       : 100vw;
+	
+	font-family: myFirstFont;
+	display    : block;
+	box-sizing : border-box;
 }
 
-
-.lang-select {
-	max-width   : 100vw;
-	/* min-width: 30vw; */
-	font-size   : 5em;
-	padding     : 4rem;
-	font-family : myFirstFont;
-	display     : block;
-	box-sizing  : border-box;
+.lang.select {
+	font-size       : 5em;
 	background-color: rgba(255, 255, 255, 0.4);
-}
-.lang-select:first-child{
-	// border-radius: 25px;
-	border-top-left-radius: 10%;
-	border-bottom-left-radius: 10%;
-}
-.lang-select:last-child{
-	// border-radius: 25px;
-	border-top-right-radius: 10%;
-	border-bottom-right-radius: 10%;
-}
-.lang-select:hover {
-	/* background-color: rgba(0, 0, 0, 0.4);
+	padding    : 4rem;
+	&:first-child {
+		// border-radius: 25px;
+		border-top-left-radius   : 10%;
+		border-bottom-left-radius: 10%;
+	}
+
+	&:last-child {
+		// border-radius: 25px;
+		border-top-right-radius   : 10%;
+		border-bottom-right-radius: 10%;
+	}
+
+	&:hover {
+		/* background-color: rgba(0, 0, 0, 0.4);
 	border-radius:  */
-	background-color: rgba(255, 255, 255, 0.7);
-	box-sizing: border-box;
-	cursor    : pointer;
+		background-color: rgba(255, 255, 255, 0.7);
+		box-sizing      : border-box;
+		cursor          : pointer;
+	}
 }
+
 
 @media screen and (max-width: 1200px),
 (pointer: coarse) {
-	#landing-desktop {
+	.desktop {
 		display: none;
 	}
 
-	#landing-mobile {
+	.mobile {
 		display: block;
 	}
 

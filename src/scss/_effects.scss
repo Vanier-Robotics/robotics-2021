@@ -1,0 +1,14 @@
+.grayscale {
+	filter    : grayscale(90%);
+	transition: filter 0.2s;
+	&:hover {
+		filter: grayscale(0%);
+	}
+}
+
+.shadow {
+	transition: filter 0.2s;
+	&:hover {
+		filter: drop-shadow(0.2em 0.2em 0.5em black);
+	}
+}

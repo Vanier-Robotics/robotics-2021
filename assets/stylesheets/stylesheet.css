@@ -38,27 +38,11 @@
   box-sizing: border-box;
 }
 
-.grayscale {
-  filter: grayscale(90%);
-  transition: filter 0.2s;
-}
-
-.grayscale:hover {
-  filter: grayscale(0%);
-}
-
-/* .hover1:hover + .shadow1 {
-	filter: drop-shadow(0px 0px 20px black);
-}
-
-.hover2:hover + .shadow2 {
-	filter: drop-shadow(0px 0px 20px black);
-} */
 #landing {
   background-image: url("/assets/images/backgrounds/romanempire.jpg");
 }
 
-#landing-mobile {
+.mobile {
   display: none;
 }
 
@@ -68,45 +52,38 @@
   padding: 1rem;
   justify-content: center;
 }
-
 .selector.center {
   align-items: center;
+}
+.selector.column {
+  flex-direction: column;
 }
 
 .nowrap {
   flex-wrap: nowrap;
 }
 
-.shadow {
-  transition: filter 0.2s;
-}
-
-.shadow:hover {
-  filter: drop-shadow(0.2em 0.2em 0.5em black);
-}
-
-.lang-select {
+.select {
   max-width: 100vw;
-  /* min-width: 30vw; */
-  font-size: 5em;
-  padding: 4rem;
   font-family: myFirstFont;
   display: block;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.4);
 }
 
-.lang-select:first-child {
+.lang.select {
+  font-size: 5em;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 4rem;
+}
+.lang.select:first-child {
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
 }
-
-.lang-select:last-child {
+.lang.select:last-child {
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
 }
-
-.lang-select:hover {
+.lang.select:hover {
   /* background-color: rgba(0, 0, 0, 0.4);
   border-radius:  */
   background-color: rgba(255, 255, 255, 0.7);
@@ -115,11 +92,11 @@
 }
 
 @media screen and (max-width: 1200px), (pointer: coarse) {
-  #landing-desktop {
+  .desktop {
     display: none;
   }
 
-  #landing-mobile {
+  .mobile {
     display: block;
   }
 
@@ -251,6 +228,83 @@ img.left {
     max-height: initial;
   }
 }
+#map-page {
+  background-image: url("/assets/images/backgrounds/romanempire.png");
+}
+
+#map {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.link {
+  position: absolute;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.link:hover {
+  box-shadow: 0 5px 50px 0 #f7ff00 inset;
+}
+
+.select.map {
+  font-size: 3em;
+  padding: 0.5em;
+  min-width: 30vw;
+  text-align: center;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.select.map:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.select.map:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.militia {
+  top: 150px;
+  left: 1170px;
+}
+
+.artillery {
+  top: 330px;
+  left: 500px;
+}
+
+.amphitheatre {
+  top: 565px;
+  left: 550px;
+}
+
+.warfront {
+  top: 565px;
+  left: 850px;
+}
+
+.archives {
+  top: 680px;
+  left: 810px;
+}
+
+.grayscale {
+  filter: grayscale(90%);
+  transition: filter 0.2s;
+}
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+
+.shadow {
+  transition: filter 0.2s;
+}
+.shadow:hover {
+  filter: drop-shadow(0.2em 0.2em 0.5em black);
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url("/assets/fonts/Catwalzhari-ywL2Y.ttf");
@@ -262,6 +316,13 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+a:any-link {
+  color: white;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
