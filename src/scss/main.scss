@@ -2,6 +2,10 @@
 @import "text-heavy";
 @import "map";
 @import "effects";
+@import "variables";
+@import "navbar";
+@import "custom";
+
 
 @font-face {
 	font-family: myFirstFont;
@@ -21,4 +25,21 @@ a{
 	&:any-link{
 		color: white;
 	}
+}
+.tan {
+	background-color: $scroll-color;
+}
+.window {
+	width: 90vw; /*window dimensions*/
+	height: 80vh; /*window dimensions*/
+	border: solid 2px black; /*Adding a border*/
+	background-color: rgba(
+		255,
+		255,
+		255,
+		0.5
+	); /*Making only the window half transparent*/
+	overflow-y: scroll; /*Adding a vertical scrollbar*/
+	/* text-align: center; */
+	margin: auto;
 }

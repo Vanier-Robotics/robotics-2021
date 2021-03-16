@@ -18,11 +18,14 @@
 		box-shadow: 0 5px 50px 0 #f7ff00 inset;
 	}
 }
-
-.select.map {
+.selector-header {
+	text-align: center;
 	font-size: 3em;
-	padding: 0.5em;
-	min-width: 30vw;
+}
+.select.map {
+	font-size: 3.5em;
+	padding: 01em;
+	min-width: 60vw;
 	text-align: center;
 	border-radius: 1em;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -32,6 +35,9 @@
 	&:not(:last-child){
 		margin-bottom: 0.5em;
 	}
+}
+.selector.map {
+	justify-content: space-evenly;
 }
 
 .militia {
