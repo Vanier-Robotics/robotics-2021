@@ -1,5 +1,6 @@
 @import "landing";
 @import "text-heavy";
+@import "map";
 
 @font-face {
 	font-family: myFirstFont;
@@ -13,4 +14,7 @@ body {
 	min-height         : 100vh;
 	overflow-x         : hidden;
 	overflow-y         : hidden;
+}
+a{
+	text-decoration: none;
 }
