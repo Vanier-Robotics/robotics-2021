@@ -6,9 +6,10 @@
   "author": "shadowlerone <andrae.lewis@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "sass": "^1.32.8"
   },
   "scripts": {
-    "sass": "sass --watch src/scss/main.scss assets/stylesheets/stylesheet.css"
+    "sass": "sass --style compressed --watch src/scss/main.scss assets/stylesheets/stylesheet.css"
   }
 }
