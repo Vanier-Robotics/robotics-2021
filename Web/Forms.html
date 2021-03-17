@@ -3,17 +3,35 @@
 
 <head>
 	<title>Text Heavy Page</title>
-	<!-- <link rel="stylesheet" type="text/css" href="Forms.css"> -->
-	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css">
+	<meta charset="utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/assets/stylesheets/stylesheet.css" />
+	<script src="/assets/scripts/main.js"></script>
 </head>
 
 <body id="text-heavy">
 	
-	<div class="navbar">
-		<a href="https://www.vaniercollege.qc.ca/"><img class="vanier" src="vanier.png" height="60px"></a>
-		<a href="https://robo-crc.ca/"><img class="crclogo" src="/assets/images/logos/crclogo.png" height="60px"></a>
-		<a href="https://www.google.com/" class="french">French</a>
-	</div>
+	<nav class="collapsed" id="navbar">
+		<div class="bubble bubble-top" onclick="toggle()"></div>
+		<ul id="navlist">
+			<div class="navheader"><a><img class="navimg" src="/assets/images/logos/crclogo.png" /></a><a><img
+						class="navimg" src="/assets/images/logos/vanier roboticslogo.png" /></a><a> <span
+						class="navtoggle">Fr</span></a></div><a href="/">
+				<li class="navlink"><img class="navimg" src="/assets/images/nav/" /> Map</li>
+			</a><a href="/roster/">
+				<li class="navlink"><img class="navimg" src="/assets/images/nav/Militia.png" /> Roster</li>
+			</a><a href="/robot/">
+				<li class="navlink"><img class="navimg" src="/assets/images/nav/Warfront.png" /> Robot</li>
+			</a><a href="/library/">
+				<li class="navlink"><img class="navimg" src="/assets/images/nav/Archives.png" /> Library</li>
+			</a><a href="/video/">
+				<li class="navlink"><img class="navimg" src="/assets/images/nav/Ampitheater.svg" /> Video</li>
+			</a>
+		</ul>
+		<div class="bubble bubble-top" onclick="toggle()"></div>
+	</nav>
 	<div class="window">
 		<h1 class="title">Title</h1>
 		<div class="paragraph">

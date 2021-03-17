@@ -1,66 +1,73 @@
 #map-page {
 	background-image: url("/assets/images/backgrounds/romanempire.png");
 }
+
 #map {
-	position: relative;
+	position  : relative;
 	min-height: 100vh;
-	min-width: 100vw;
+	min-width : 100vw;
 }
 
 .link {
-	position: absolute;
-	color: white;
+	position        : absolute;
+	color           : white;
 	background-color: black;
-	cursor: pointer;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	cursor          : pointer;
+	padding-left    : 0.5em;
+	padding-right   : 0.5em;
+
 	&:hover {
 		box-shadow: 0 5px 50px 0 #f7ff00 inset;
 	}
 }
+
 .selector-header {
 	text-align: center;
-	font-size: 3em;
+	font-size : 3em;
 }
+
 .select.map {
-	font-size: 3.5em;
-	padding: 01em;
-	min-width: 60vw;
-	text-align: center;
-	border-radius: 1em;
+	font-size       : 3.5em;
+	padding         : 01em;
+	min-width       : 60vw;
+	text-align      : center;
+	border-radius   : 1em;
 	background-color: rgba(0, 0, 0, 0.9);
+
 	&:hover {
 		background-color: rgba(0, 0, 0, 0.7);
 	}
-	&:not(:last-child){
+
+	&:not(:last-child) {
 		margin-bottom: 0.5em;
 	}
 }
+
 .selector.map {
 	justify-content: space-evenly;
 }
 
 .militia {
-	top: 150px;
+	top : 150px;
 	left: 1170px;
 }
 
 .artillery {
-	top: 330px;
+	top : 330px;
 	left: 500px;
 }
 
 .amphitheatre {
-	top: 565px;
+	top : 565px;
 	left: 550px;
 }
 
 .warfront {
-	top: 565px;
+	top : 565px;
 	left: 850px;
 }
 
 .archives {
-	top: 680px;
+	top : 680px;
 	left: 810px;
 }
