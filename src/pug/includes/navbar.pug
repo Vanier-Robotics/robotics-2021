@@ -1,0 +1,16 @@
+nav#navbar.collapsed()
+	.bubble.bubble-top(onclick="toggle()")
+	ul#navlist
+		.navheader
+			a
+				img.navimg(src="/assets/images/logos/crclogo.png")
+			a
+				img.navimg(src="/assets/images/logos/vanier roboticslogo.png")
+			a 
+				span.navtoggle Fr
+		+navlink("/", "Map", "")
+		+navlink("/roster/", "Roster", "Militia.png")
+		+navlink("/robot/", "Robot", "Warfront.png")
+		+navlink("/library/", "Library", "Archives.png")
+		+navlink("/video/", "Video", "Ampitheater.svg")
+	.bubble.bubble-bottom(onclick="toggle()")
