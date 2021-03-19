@@ -3,25 +3,33 @@
 }
 /*The center window */
 
-
+.article {
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif;
+	min-width: 100%;
+	padding: 1em;
+	font-size: 1.75em;
+	&:not(:last-child){
+		margin-bottom: 1rem;
+		border-bottom: 2px solid black;
+	}
+	&:not(:first-child){
+		border-top: 2px solid black;
+	}
+}
 /*The window title*/
 .title {
 	font-family: myFirstFont;
-	font-size: 4.25em;
+	font-size: 2em;
 	text-decoration: none;
 	text-align: center;
 }
 
 /*The set of paragraph and image*/
 .paragraph {
-	font-family: 'Times New Roman', Times, serif;
-	border: solid 2px black;
-	background-color: white;
 	display: flex;
 	min-width: 100%;
 	box-sizing: border-box;
-	font-size: 1.75em;
-	padding: 1em;
 }
 .paragraph:not(:last-child) {
 	margin-bottom: 1em;

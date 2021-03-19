@@ -39,7 +39,7 @@ langs.forEach(lang => {
 roster.teams.forEach(t => {
 	langs.forEach(lang => {
 		generate(
-			`build/${lang}/roster-test-2/${t}`, 
+			`build/${lang}/roster/${t}`, 
 			"index.html", 
 			"src/pug/pages/roster/team.pug", 
 			{

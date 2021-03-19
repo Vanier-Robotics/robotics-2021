@@ -1,11 +1,11 @@
-@import "landing";
-@import "text-heavy";
-@import "map";
 @import "effects";
 @import "variables";
 @import "navbar";
 @import "custom";
-
+@import "text-heavy";
+@import "map";
+@import "landing";
+@import "archives";
 
 @font-face {
 	font-family: myFirstFont;
@@ -52,4 +52,7 @@ a {
 	box-sizing   : border-box;
 	margin-top   : 2em;
 	scrollbar-width: thin;
+	scrollbar-track-color: rgba(0,0,0,0);
+	scrollbar-color: grey rgba(0,0,0,0);
+	scroll-behavior: smooth;
 }

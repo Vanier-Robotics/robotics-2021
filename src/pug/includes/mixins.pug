@@ -26,19 +26,24 @@ mixin team(t)
 		//- .card-body
 			
 mixin navlink(url, n, img)
-	a(href=url)
+	a(href="/"+lang+url)
 		li.navigationlink #[img.navimg(src="/assets/images/nav/" + img)] #{n}
 
 mixin article(article)
-	h1.title(id=article.t)=article.title[lang]
-	for p in article.paragraphs[lang]
-		.paragraph 
-			if (p.subtitle !== null)
-				h1.subtitle=p.subtitle
-			p
-				//- if (p.img !== null)
-				//- 	if (p.img.side !== null)
-				//- 		img.image(class=p.img.side src="/assets/images/articles/#{p.img.src}" alt="altText")
-				//- 	else
-				//- 		img.image(src="/assets/images/articles/#{p.img.src}" alt="altText")
-				| #{p.content}
+	.article(id=article.t)
+		h1.title=article.title[lang]
+		for p in article.paragraphs[lang]
+			.paragraph 
+				if (p.subtitle !== null)
+					h1.subtitle=p.subtitle
+				p
+					//- if (p.img !== null)
+					//- 	if (p.img.side !== null)
+					//- 		img.image(class=p.img.side src="/assets/images/articles/#{p.img.src}" alt="altText")
+					//- 	else
+					//- 		img.image(src="/assets/images/articles/#{p.img.src}" alt="altText")
+					| #{p.content}
+
+mixin archiveNav(article)
+	li.archive-nav-item
+		a.archive-nav-link(href="##{article.t}")=article.title[lang]
