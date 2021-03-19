@@ -26,8 +26,8 @@ mixin team(t)
 		//- .card-body
 			
 mixin navlink(url, n, img)
-	a.navlink(href=url)
-		li #[img.navimg(src="/assets/images/nav/" + img)] #{n}
+	a(href=url)
+		li.navigationlink #[img.navimg(src="/assets/images/nav/" + img)] #{n}
 
 mixin article(article)
 	h1.title(id=article.t)=article.title[lang]

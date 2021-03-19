@@ -7,7 +7,7 @@
 		font-size: 2rem;
 	}
 	z-index: 999;
-	width: 24em;
+	width: 26em;
 }
 #navlist {
 	& > * {
@@ -20,10 +20,10 @@
 	height: 0;
 	overflow: hidden;
 	background-color: #d2b58d;
-	background-image: url("/assets/images/scrolls/vertical scroll 1.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	// background-image: url("/assets/images/scrolls/vertical scroll 1.png");
+	// background-position: center;
+	// background-repeat: no-repeat;
+	// background-size: cover;
 	position: relative;
 	margin-bottom: 0;
 	text-align: justify;
@@ -55,9 +55,10 @@
 		min-width: 2rem;
 	}
 }
-.navlink {
+.navigationlink {
 	border-radius: 5px;
 	padding: 0.5em;
+	background-color: transparent;
 	&:hover {
 		background-color:rgba(0,0,0,0.4);
 	}
@@ -108,12 +109,12 @@
 }
 
 .bubble-top {
-	background-image: url("/assets/images/scrolls/scroll top.png");
+	// background-image: url("/assets/images/scrolls/scroll top.png");
 	outline: 1px solid black;
 }
 .bubble-bottom{
-	background-image: url("/assets/images/scrolls/scroll bottom.png");
-	
+	// background-image: url("/assets/images/scrolls/scroll bottom.png");
+	outline: 1px solid black;
 }
 
 @media only screen and (max-width: 1200px){

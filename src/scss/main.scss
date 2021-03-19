@@ -36,7 +36,7 @@ a {
 .window {
 	width : 90vw;
 	/*window dimensions*/
-	height: 80vh;
+	height: 90vh;
 	/*window dimensions*/
 	border: solid 2px black;
 	/*Adding a border*/
@@ -51,4 +51,5 @@ a {
 	margin       : auto;
 	box-sizing   : border-box;
 	margin-top   : 2em;
+	scrollbar-width: thin;
 }

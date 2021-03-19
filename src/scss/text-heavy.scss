@@ -6,9 +6,9 @@
 
 /*The window title*/
 .title {
-	font-family: myFirstFont; /*Setting the font for the title*/
-	font-size: 250%; /*Changing the font size of the title*/
-	text-decoration: none; /*Removing text decoration*/
+	font-family: myFirstFont;
+	font-size: 4.25em;
+	text-decoration: none;
 	text-align: center;
 }
 
@@ -20,6 +20,7 @@
 	display: flex;
 	min-width: 100%;
 	box-sizing: border-box;
+	font-size: 1.75em;
 	padding: 1em;
 }
 .paragraph:not(:last-child) {
