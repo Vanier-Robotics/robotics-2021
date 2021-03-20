@@ -1,0 +1,86 @@
+{
+	"navbar": {
+		"header": {
+			"toggle": {
+				"en":"Fr",
+				"fr":"En"
+			}
+		},
+		"links": {
+			"map":{
+				"en": "Map",
+				"fr": "Carte"
+			},
+			"roster": {
+				"en":"Roster",
+				"fr": "Équipe"
+			},
+			"robot": {
+				"en": "Robot",
+				"fr": "Robot"
+			},
+			"archives":{
+				"en": "Archives",
+				"fr": "Archives"
+			},
+			"video": {
+				"en":"Video",
+				"fr":"Vidéo"
+			}
+		}
+	},
+	"member": {
+		"teams": {
+			"en": "Teams",
+			"fr": "Équipes"
+		},
+		"moments": {
+			"en": "Most memorable event(s) in robotics for 2020-2021?",
+			"fr": "Moment le plus mémorable de la saison 2020-2021"
+		},
+		"numeral": {
+			"en":"Favorite Roman numeral?",
+			"fr":"Chiffre romain préféré?"
+		},
+		"emperor": {
+			"en":"Favorite emperor?",
+			"fr":"Empereur préféré?"
+		},
+		"job": {
+			"en":"Job?",
+			"fr":"Travail?"
+		}
+	},
+	"teams": {
+		"captain": {
+			"en":"Captains",
+			"fr":"",
+			"t":"captains"
+		},
+		"build": {
+			"en":"Build",
+			"fr":"",
+			"t":"build"
+		},
+		"programming": {
+			"en":"Programming",
+			"fr":"",
+			"t":"programming"
+		},
+		"kiosk": {
+			"en":"Kiosk",
+			"fr":"",
+			"t":"kiosk"
+		},
+		"video": {
+			"en":"Video",
+			"fr":"",
+			"t":"video"
+		},
+		"web": {
+			"en":"Web",
+			"fr":"",
+			"t":"web"
+		}
+	}
+}

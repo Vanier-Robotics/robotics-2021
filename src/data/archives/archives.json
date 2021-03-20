@@ -19,13 +19,88 @@
 			],
 			"fr": [
 				{
-					"content":"La vidéo est l'une des nombreuses parties de cette compétition sur laquelle il est très amusant de travailler. Grâce au temps consacré à la création d'une vidéo, nous sommes en mesure de passer du temps avec notre équipe et de créer des souvenirs. Cependant, cette année, notre tâche a été plus difficile à accomplir, compte tenu de la pandémie dans laquelle nous nous trouvons. Toutes nos réunions se sont déroulées en ligne, à travers des écrans d’ordinateurs, mais nous avons tout de même essayé de faire un bon usage du temps que nous avons passé. Naturellement, avec ce genre de changement, notre équipe a pris du retard."
+					"content": "La vidéo est l'une des nombreuses parties de cette compétition sur laquelle il est très amusant de travailler. Grâce au temps consacré à la création d'une vidéo, nous sommes en mesure de passer du temps avec notre équipe et de créer des souvenirs. Cependant, cette année, notre tâche a été plus difficile à accomplir, compte tenu de la pandémie dans laquelle nous nous trouvons. Toutes nos réunions se sont déroulées en ligne, à travers des écrans d’ordinateurs, mais nous avons tout de même essayé de faire un bon usage du temps que nous avons passé. Naturellement, avec ce genre de changement, notre équipe a pris du retard."
 				},
 				{
-					"content":"Au début de la saison de compétition de la CRC, l’équipe qui était responsable de la vidéo a réfléchi en groupe lors des réunions en ligne. Cependant, en raison des nombreuses restrictions imposées par notre gouvernement, aucun rassemblement n'aurait pu être organisé pour le tournage. Cela étant dit, nous avons décidé qu'il valait mieux que la vidéo soit un « spectacle solo »; nous avons changé notre idée originale pour satisfaire celle-ci. Le tournage a été rendu plus difficile pour un seul membre de l'équipe, mais a été rendu plus facile puisque ce membre possédait déjà de nombreux équipements de tournage—c’est-à-dire un écran vert, une caméra et plus encore. Pour rendre la vidéo plus intéressante pour le public, l'acteur avait des poils faciaux, des vêtements et des coiffures différents."
+					"content": "Au début de la saison de compétition de la CRC, l’équipe qui était responsable de la vidéo a réfléchi en groupe lors des réunions en ligne. Cependant, en raison des nombreuses restrictions imposées par notre gouvernement, aucun rassemblement n'aurait pu être organisé pour le tournage. Cela étant dit, nous avons décidé qu'il valait mieux que la vidéo soit un « spectacle solo »; nous avons changé notre idée originale pour satisfaire celle-ci. Le tournage a été rendu plus difficile pour un seul membre de l'équipe, mais a été rendu plus facile puisque ce membre possédait déjà de nombreux équipements de tournage—c’est-à-dire un écran vert, une caméra et plus encore. Pour rendre la vidéo plus intéressante pour le public, l'acteur avait des poils faciaux, des vêtements et des coiffures différents."
 				},
 				{
-					"content":"De plus, tout au long de ce parcours, il y a eu de nombreuses difficultés pour tous les membres de l'équipe. La gestion du temps pour l'acteur et le réalisateur de la vidéo était un défi étant donné que le travail scolaire et les délais ne cessaient de s'accumuler. La communication était également difficile pour tous."
+					"content": "De plus, tout au long de ce parcours, il y a eu de nombreuses difficultés pour tous les membres de l'équipe. La gestion du temps pour l'acteur et le réalisateur de la vidéo était un défi étant donné que le travail scolaire et les délais ne cessaient de s'accumuler. La communication était également difficile pour tous."
+				}
+			]
+		}
+	},
+	"kiosk": {
+		"t": "kiosk",
+		"title": {
+			"en": "Kiosk",
+			"fr": "Kiosque"
+		},
+		"paragraphs": {
+			"en": [
+				{
+					"content": "2021 has been nothing but new challenges, adaptations, and full of compromises.  This year through our robotics team we faced numerous challenges, the obvious one being, working solo, in many of our time-consuming projects. For the year 2021, through a google poll we voted on our theme, roman empire. The first couple of months we met 1-2 times weekly on Microsoft Teams where we discussed the layout and plan for our virtual kiosk. Here we spent between 1- and 2-hours brainstorming ideas and getting to know one another. Robotics has always been a way to make lifelong friends and develop great communication and teamwork skills. Unfortunately, this year we had to adapt to the new way of online meeting and learning which was very strange and unfamiliar to most of us, however, I believe as a team we did a decent job of communicating fluently to one another. Many of us also spoke out of robotics meetings and were able to discuss our ideas through group chats on Messenger."
+				},
+				{
+					"content": "One of the biggest challenges we had to face was figuring out a way to virtualize our kiosk. From this we used Blender in order to construct and present our ideas of what we wanted our Roman Empire to look like. Probably the biggest struggle was learning and trying to figure out the application “Blender”. This came with many hours of frustration and confusion, however, with practice and hard work came success. 2 members of the kiosk team also hand made and painted roman pillars to help with the video and help visualize what our kiosk would look like. Another problem we faced was communication issues, which I believe most teams had the same difficulty. It was hard getting on the same page as all members of the team and figuring out days where everyone could meet while we all juggled schoolwork, family time, and extra activities. Our Vanier Team did a good job with communication, yet we still struggled to meet deadlines."
+				},
+				{
+					"content": "For the design of the kiosk, we used the application “Blender”. As shown in the four angles of the kiosk at the bottom of the page, we can see all functionalities of our construction. When entering the kiosk our school’s name and number is presented on a colored flag. Our 4 columns help support our beams, but mostly represent our theme of Roman Empire. Behind the fake brick wall, we have a room which can be used for coats, shoes, and excess tools or materials. It is closed off with a cream-coloured curtain. A shelf system is placed in front with moving wheels for efficiency and extra organization space. To the left, our working table is used for our build team to make quick fixes, repair broken pieces, and set up our robot for the competition games. Above, it is a cork board to hang tools and supplies in order to save space and keep the working space organized. In the middle, we have a roman themed chest for aesthetic purposes, as well as to the right we have a stand for decorative purposes. Any extra space in our kiosk is used for efficient working and comfort. We tried our best to incorporate as many roman themed characteristics as well as following the kiosk guidelines and having a spacious efficient working space."
+				},
+				{
+					"imgs": [
+						{
+							"side": "left",
+							"src": "Picture1.jpg",
+							"class": "full"
+						},
+						{
+							"side": "left",
+							"src": "Picture2.jpg",
+							"class": "full"
+						},
+						{
+							"side": "left",
+							"src": "Picture3.jpg",
+							"class": "full"
+						}
+					]	
+				},
+				{
+					"content": "After the crazy school year we had, we can confidently say we have met our expectations. I believe with the new challenges we had to overcome; we did a very good job at handling all the obstacles we were faced with. Although we were not able to properly meet and have access to all the materials needed to make a fully functional kiosk, with our creative brainstorming skills and dedication to making this year great, we did a wonderful job and should be proud of it!"
+				}
+			],
+			"fr": [
+				{
+					"content": "2021 n'a été que de nouveaux défis, des adaptations et plein de compromis. Cette année, grâce à notre équipe de robotique, nous avons fait face à de nombreux défis, le plus évident étant de travailler en solo dans bon nombre de nos projets chronophages. Pour l'année 2021, grâce à un sondage Google, nous avons voté sur notre thème, l'empire romain. Les premiers mois, nous nous sommes rencontrés 1 à 2 fois par semaine sur Microsoft Teams, où nous avons discuté de la mise en page et du plan de notre kiosque virtuel. Ici, nous avons passé entre 1 et 2 heures à réfléchir à des idées et à nous connaître. La robotique a toujours été un moyen de se faire des amis et de développer d'excellentes compétences en communication et en travail d'équipe. Malheureusement, cette année, nous avons dû nous adapter à la nouvelle façon de se rencontrer et d'apprendre en ligne, ce qui était très étrange et inconnu pour la plupart d'entre nous, cependant, je pense qu'en tant qu'équipe, nous avons fait un bon travail en communiquant couramment avec tous l’équipe. Beaucoup d'entre nous ont également aussi parlé sur des groupes sur Messenger pour garder le contact. "
+				},
+				{
+					"content": "L'un des plus grands défis auxquels nous avons dû faire face a été de trouver un moyen de virtualiser notre kiosque. À partir de là, nous avons utilisé Blender pour construire et présenter nos idées sur ce à quoi nous voulions que notre Empire Romain ressemble. La plus grande difficulté a probablement été d'apprendre et d'essayer de comprendre l'application «Blender». Cela est venu avec de nombreuses heures de frustration et de confusion, cependant, avec la pratique et le travail acharné est venu le succès. 2 membres de l'équipe du kiosque ont également fabriqué et peint à la main des piliers romains pour aider à la vidéo et aider à visualiser à quoi ressemblerait notre kiosque. Un autre problème auquel nous avons été confrontés était les problèmes de communication, que je pense que la plupart des équipes ont eu le même problème. C'était difficile de trouver des jours où tout le monde pourrait se rencontrer pendant que nous jonglions le travail d’école, le temps en famille et les activités supplémentaires. Notre équipe Vanier a fait du bon travail en matière de communication, mais nous avons toujours eu du mal à respecter les délais."
+				},
+				{
+					"content": "Pour la conception du kiosque, nous avons utilisé l'application « Blender». Comme nous voyons sur les quatre angles du kiosque au bas de la page, nous pouvons voir toutes les fonctionnalités de notre construction. En entrant dans le kiosque, le nom et le numéro de notre école sont présentés sur un drapeau de couleur. Nos 4 colonnes aident à soutenir nos poutres, mais représentent surtout notre thème de l'Empire romain. Derrière le faux mur de briques, nous avons un espace qui peut être utiliser pour les manteaux, les chaussures et les outils ou matériaux en excès. Il est fermé par un rideau de couleur crème. Un système d'étagères est placé à l'avant avec des roues mobiles pour plus d'efficacité et un espace d'organisation supplémentaire. À gauche, notre table de travail est utilisée par notre équipe de construction pour faire des correctifs rapides, réparer les pièces cassées et configurer notre robot pour les jeux de compétition. Au-dessus, il y a un panneau de liège pour accrocher des outils et des fournitures afin de gagner de la place et de garder l'espace de travail organisé. Au milieu, nous avons un coffre à thème romain à des fins esthétiques, ainsi qu'à droite, nous avons un support à des fins décoratives. Tout espace supplémentaire dans notre kiosque est utilisé pour un travail et un confort efficace. Nous avons fait de notre mieux pour incorporer autant de caractéristiques sur le thème romain, en suivant les directives du kiosque et en ayant un espace de travail assez grand et efficace."
+				},
+				{
+					"imgs": [
+						{
+							"side": "left",
+							"src": "Picture1.jpg",
+							"class": "full"
+						},
+						{
+							"side": "left",
+							"src": "Picture2.jpg",
+							"class": "full"
+						},
+						{
+							"side": "left",
+							"src": "Picture3.jpg",
+							"class": "full"
+						}
+					]	
+				},
+				{
+					"content": "Après la folle année scolaire que nous avons eue, nous pouvons affirmer avec confiance que nous avons répondu à nos attentes. Je crois avec les nouveaux défis que nous avons dû surmonter; nous avons fait un très bon travail pour gérer tous les obstacles auxquels nous avons été confrontés. Bien que nous n'ayons pas pu nous rencontrer correctement et avoir accès à tout le matériel nécessaire pour créer un kiosque entièrement fonctionnel, grâce à nos compétences en brainstorming créatif et à notre dévouement pour rendre cette année formidable, nous avons fait un travail formidable et devrions en être fiers!"
 				}
 			]
 		}
