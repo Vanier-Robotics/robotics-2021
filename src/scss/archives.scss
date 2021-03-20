@@ -5,8 +5,12 @@ ul.archive-nav {
 	overflow        : hidden;
 	background-color: tan;
 	// margin-bottom: 0.5em;
+	// position:fixed;
 }
 
+.border-bottom{
+	border-bottom: 2px solid black;
+}
 li.archive-nav-item {
 	float: right;
 }

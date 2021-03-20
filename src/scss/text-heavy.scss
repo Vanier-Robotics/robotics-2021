@@ -69,6 +69,9 @@
 	flex-grow: 1;
 	border-radius: 1em;
 	max-height: 100%;
+	&.full {
+		height: auto;
+	}
 }
 img.right {
 	float: right;
