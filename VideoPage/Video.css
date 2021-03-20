@@ -1,0 +1,80 @@
+/*Adding a specific font*/
+@font-face {
+	font-family: myFirstFont;
+	src: url(Catwalzhari-ywL2Y.ttf);
+}
+
+body {
+	background-image: url('battlefield.jpg'); /*To set the page's background*/
+	background-repeat: no-repeat; /*To avoid the backgroudn from repeating*/
+  	background-size: cover; /*To cover the entire page with the background*/ 
+  	background-position: 0px -115px; /*To position the background image*/
+	overflow-x: hidden; /*To hide the horizontal scrollbar*/ 
+	overflow-y: hidden; /*To hide the vertical scrollbar*/
+}
+
+/*The center window */
+.window {
+	position: absolute; /*Positioning the center window*/
+	top: 50px; /*Positioning the center window*/
+	left: 260px; /*Positioning the center window*/
+	width: 1000px; /*window dimensions*/ 
+	height: 640px;  /*window dimensions*/
+	border: solid 2px black; /*Adding a border*/ 
+	background-color: rgba(255,255,255,0.5); /*Making only the window half transparent*/ 
+	overflow-y: scroll; /*Adding a vertical scrollbar*/ 
+}
+
+
+
+/*The box inside the window*/ 
+.box1 {
+	font-family: myFirstFont; 
+	position: absolute; 
+	top: 50px; 
+	left: 40px;
+	width: 900px; 
+	height: 700px; 
+	border: solid 2px black; 
+	background-color: white;
+}
+
+
+/*The box inside the window*/ 
+.box2 {
+	font-family: myFirstFont;
+	position: absolute; 
+	top: 800px; 
+	left: 40px;
+	width: 900px; 
+	height: 700px; 
+	border: solid 2px black; 
+	background-color: white;
+}
+
+/*The box's title*/
+.title {
+	font-family: myFirstFont; /*Setting the font for the subtitle*/
+	position: absolute; top:-20px; left: 5px; /*Positioning the subtitle*/
+	color: black; /*Setting the subtitle's color*/
+	font-size: 200%; /*Changing the font size of the subtitle*/
+	text-decoration: none; /*Removing text decoration*/ 
+}
+
+/*The box's description*/
+.description {
+	font-family: myFirstFont; /*Setting the font for the subtitle*/
+	color: black; /*Setting the subtitle's color*/
+	font-size: 120%; /*Changing the font size of the subtitle*/
+	text-decoration: none; /*Removing text decoration*/ 
+	position: absolute;
+	top: 20px;
+	left: 5px;
+}
+
+/*The video*/
+.video {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
