@@ -4,19 +4,19 @@ mixin member(m)
 		img.card-img-top.img-fluid(src="/assets/images/roster/" + m.img + ".jpg")
 		div.card-body
 			div.card-title
-			h6.card-subtitle Teams
+			h6.card-subtitle=text.member.teams[lang]
 			p.card-text=m["What sub-teams are you a part of in robotics?"][lang].join(", ")
 			hr
-			h6.card-subtitle Most memorable event(s) in robotics for 2020-2021:
+			h6.card-subtitle=text.member.moments[lang]
 			p.card-text=m["Most memorable event(s) or experiences you have had in robotics for 2020-2021:"][lang]
 			hr
-			h6.card-subtitle Favorite Roman numeral?
+			h6.card-subtitle=text.member.numeral[lang]
 			p.card-text=m["What is your favorite number ( in Roman numerals)?"][lang]
 			hr
-			h6.card-subtitle Favorite emperor?
+			h6.card-subtitle=text.member.emperor[lang]
 			p.card-text=m["Who is your favorite emperor of the Roman Empire?"][lang]
 			hr
-			h6.card-subtitle Job?
+			h6.card-subtitle=text.member.job[lang]
 			p.card-text=m["What job would you want to have in being a part of the Roman Empire?"][lang]
 
 mixin team(t)
@@ -34,16 +34,24 @@ mixin article(article)
 		h1.title=article.title[lang]
 		for p in article.paragraphs[lang]
 			.paragraph 
-				if (p.subtitle !== null)
+				if (p.subtitle !== null && p.subtitle !== undefined)
 					h1.subtitle=p.subtitle
 				p
-					//- if (p.img !== null)
-					//- 	if (p.img.side !== null)
-					//- 		img.image(class=p.img.side src="/assets/images/articles/#{p.img.src}" alt="altText")
-					//- 	else
-					//- 		img.image(src="/assets/images/articles/#{p.img.src}" alt="altText")
+					if (p.imgs !== null && p.imgs !== undefined)
+						for i in p.imgs
+							if (i.side !== null && i.side !== undefined)
+								img.image(class=i.side + " " + i.class src="/assets/images/articles/" + i.src alt="altText")
+							else
+								img.image.left(class=i.class, src="/assets/images/articles/" + i.src alt="altText")
 					| #{p.content}
 
 mixin archiveNav(article)
 	li.archive-nav-item
-		a.archive-nav-link(href="##{article.t}")=article.title[lang]
+		a.archive-nav-link(href="#"+article.t)=article.title[lang]
+
+mixin rosterNav(team, active)
+	li.archive-nav-item
+		if (team.t.toLowerCase() === active.toLowerCase())
+			a.archive-nav-link.active(href="/" + lang + "/roster/"+team.t)=team[lang]
+		else
+			a.archive-nav-link(href="/" + lang + "/roster/"+team.t)=team[lang]
