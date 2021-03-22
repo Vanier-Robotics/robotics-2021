@@ -72,7 +72,7 @@ if (process.argv.includes("-w") == true || process.argv.includes("--watch") == t
 		var archives = get_archives()
 		var roster = get_members();
 		let articles = [
-			archives.video, archives.kiosk
+			archives.kiosk, archives.video, archives.journalism
 		];
 		generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
 		generate_archives(langs, articles)
@@ -84,9 +84,9 @@ if (process.argv.includes("-w") == true || process.argv.includes("--watch") == t
 	var archives = get_archives()
 	var roster = get_members();
 	let articles = [
-		archives.video, archives.kiosk
+		archives.kiosk, archives.video, archives.journalism
 	];
 	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
-	generate_archives(lang, articles)
-	generate_roster(lang, roster)
+	generate_archives(langs, articles)
+	generate_roster(langs, roster)
 }

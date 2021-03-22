@@ -104,5 +104,42 @@
 				}
 			]
 		}
+	},
+	"journalism" :{
+		"t": "journalism",
+		"title": {
+			"en": "Journalism and Website",
+			"fr": "Journalisme et Site Web"
+		},
+		"paragraphs": {
+			"en": [
+				{
+					"content":"This year, there were not many changes when it comes to the tasks that both the website-building and journalism teams must perform. However, the main difficulty was our new form communication. Considering the pandemic that we are all facing, instead of in-person meetings, we had to move to online platforms such as Microsoft Teams for our meetings to take place. "
+				},
+				{
+					"content":"Due to this and the change in lifestyle for many—considering the pandemic we are facing—there were few returning members on the website and journalism teams. This made the workload greater for those who decided to remain in or join the teams. "
+				},
+				{
+					"content":"When it comes to journalism, the various articles that would be written were easily divided amongst the teammates. Considering that several members were taking part in other sub teams—namely website designing, kiosk building, and video making—it was also easier to write about each sub team’s ups and downs and their experience with the changes that we are facing. This year, new members joined Journalism, and having already participated in this competition previously in their high schools, there was no need for the explanation of what Journalism means when we talk about robotics. This being said, only two to three meetings were required during the year in order to ensure the team’s organisation and understanding our given tasks."
+				},
+				{
+					"content":"As for the website designing, there were no returning members due to their graduation and the pandemic. However, at the beginning of the year, a whole new group of students who were interested in the conception of the website joined the Vanier Robotics Team. With Roman Empire as the most voted to become our theme, the students in charge of the website had to keep this idea in mind during its construction. Also, some mistakes made in last year’s “Vanier Street” website had to be kept in mind in order to improve ourselves. We first started with the website’s design; during a couple of meetings, we discussed the incorporation of the theme and its aesthetics. However, during this time, due to miscommunication and other complications, advancements on the website were very slow. With the recruitment of a new member, this changed towards the end of February, where we started to accelerate the process. The landing page, the language page, the pages containing the journalism articles, and more were created, and with an existing member  who was knowledgeable on the mobile compatibility of websites and already on the team since the beginning, our website was improved from our previous one. Whether the website conception team members had experience or did not, they all contributed in one way or another to help with the construction of this website."
+				}
+			],
+			"fr": [
+				{
+					"content":"Cette année, il n'y a pas eu beaucoup de changements en ce qui concerne les tâches que les équipes de la création du site web et de journalisme doivent accomplir. Cependant, la principale difficulté résidait dans notre nouvelle forme de communication. Compte tenu de la pandémie à laquelle nous sommes tous confrontés, au lieu des réunions en personne, nous avons dû passer à des plates-formes en ligne telles que Microsoft Teams pour que nos réunions aient lieu. "
+				},
+				{
+					"content":"À cause de cela et du changement de mode de vie pour beaucoup—compte tenu de la pandémie à laquelle nous sommes confrontés—il y avait peu de membres de retour dans les équipes du site web et de journalisme. Cela a augmenté la charge de travail pour ceux qui ont décidé de rester ou de rejoindre les équipes. "
+				},
+				{
+					"content":"Pour le journalisme, les différents articles qui devaient être écrits étaient facilement répartis entre nos coéquipiers. Étant donné que plusieurs membres faisaient partie d'autres sous-groupes—c’est à dire la conception du sites web, la création du kiosque et la création de la vidéo, il était également plus facile d'écrire à propos des difficultés et des réussites de chaque sous-groupe et de leur expérience avec les changements auxquels nous sommes confrontés. Cette année, de nouveaux membres ont rejoint l’équipe de journalisme, et ayant déjà participé à cette compétition auparavant dans leurs écoles secondaires, il n'était pas nécessaire d'expliquer ce que signifie le journalisme lorsque nous parlons de robotiques. Cela étant dit, seules deux à trois réunions ont été nécessaires au cours de l’année afin de s’assurer de l’organisation de l’équipe et de la compréhension des tâches qu’on nous avait confiées."
+				},
+				{
+					"content":"En ce qui concerne la conception du site web, aucun membre n'est revenu à l’équipe en raison de leurs graduations et de la pandémie. Cependant, en début d'année, un tout nouveau groupe d'étudiants intéressés par la conception du site web s'est joint à notre équipe. Avec l'empire romain étant le plus voté pour devenir notre thème, les étudiants en charge du site ont dû garder cette idée à l'esprit lors de sa construction. De plus, il a fallu garder à l’esprit certaines erreurs commises sur le site web « Vanier Street » de l’année dernière pour nous améliorer. Nous avons commencé par concevoir des idées pour le site web; lors de quelques rencontres, nous avons discuté de l'incorporation du thème et de son esthétique. Cependant, pendant cette période, en raison de mauvaise communication et d'autres complications, les progrès sur le site web ont été très lents. Avec le recrutement d'un nouveau membre, cela a changé vers la fin du mois de février, où nous avons commencé à accélérer le processus. La page d’atterrissage, la page de langue, les pages contenant les articles de journalisme et plus ont été créées, et avec un  membre qui était déjà sur l’équipe et qui connaissait comment rendre un site Web compatible pour les téléphones cellulaires, notre site Web a été amélioré par rapport au précédent. Même si les membres de l'équipe de conception du site aient de l'expérience ou non, ils ont tous contribué d'une manière ou d'une autre à aider à la construction de ce site."
+				}			
+			]
+		}
 	}
 }
