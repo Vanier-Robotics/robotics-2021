@@ -51,3 +51,77 @@ a{
 	top: 680px;
 	left: 810px;
 }
+body {
+	background-image: url('romanempire2.png'); /*To set the page's background*/
+	background-repeat: no-repeat; /*To avoid the backgroudn from repeating*/
+  	/*background-size: cover; To cover the entire page with the background*/
+  	background-position: 0px 0px; /*To position the background image*/
+	/*overflow-x: hidden; To hide the horizontal scrollbar */
+	/*overflow-y: hidden; /*To hide the vertical scrollbar*/
+	background-color: #f2f5cf;
+}
+
+.militia{
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	left: 1170px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.artillery {
+	position: absolute;
+	text-align: center;
+	top: 340px;
+	left: 495px;
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.amphitheatre {
+	position: absolute;
+	text-align: center;
+	top: 570px;
+	left: 500px;
+	width: 155px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.warfront {
+	position: absolute;
+	text-align: center;
+	top: 580px;
+	left: 860px;
+	width: 120px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+.archives {
+	position: absolute;
+	text-align: center;
+	top: 685px;
+	left: 825px;
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+h2:hover {
+	box-shadow: 0 5px 50px 0 #f7ff00 inset
+}
+
