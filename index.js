@@ -7,7 +7,7 @@ const archives_fp = "src/data/archives/archives.json";
 const members_fp = "src/data/roster/members-test.json";
 const translation_fp = "src/data/text.json";
 
-function get (fp) {
+function get(fp) {
 	var rawdata = fs.readFileSync(fp);
 	return JSON.parse(rawdata);
 }
@@ -59,28 +59,23 @@ function generate_roster(langs, roster) {
 				{
 					fmembers: roster.members.filter(m => m.teams.includes(t)),
 					lang: lang,
-					t:t
+					t: t
 				})
 		})
 	})
 }
 
-let langs = ["en", "fr"];
-
-if (process.argv.includes("-w") == true || process.argv.includes("--watch") == true) {
-	chokidar.watch("src/**/*").on('change', (event, path) => {	
-		var archives = get_archives()
-		var roster = get_members();
-		let articles = [
-			archives.kiosk, archives.video, archives.journalism
-		];
-		generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
-		generate_archives(langs, articles)
-		generate_roster(langs, roster)
-		console.log("Generated Website!")
+function generate_map(langs) {
+	langs.forEach(lang => {
+		generate(
+			`build/${lang}`,
+			"index.html",
+			"src/pug/pages/map.pug",
+			{ lang: lang }
+		)
 	})
-
-} else {
+}
+function main() {
 	var archives = get_archives()
 	var roster = get_members();
 	let articles = [
@@ -89,4 +84,16 @@ if (process.argv.includes("-w") == true || process.argv.includes("--watch") == t
 	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
 	generate_archives(langs, articles)
 	generate_roster(langs, roster)
+	generate_map(langs)
+	console.log("Generated Website!")
+}
+let langs = ["en", "fr"];
+
+if (process.argv.includes("-w") == true || process.argv.includes("--watch") == true) {
+	chokidar.watch("src/**/*").on('change', (event, path) => {
+		main();
+	})
+
+} else {
+	main();
 }
