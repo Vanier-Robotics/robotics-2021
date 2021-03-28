@@ -1,0 +1,6 @@
+extends ../../template
+
+block content
+	.card-columns.d-flex.flex-wrap
+		each n in teams
+			+team(n)

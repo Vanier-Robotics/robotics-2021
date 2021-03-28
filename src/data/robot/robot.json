@@ -1,0 +1,135 @@
+[{
+	"t": "robot",
+	"title": {
+		"en": "Robot for the Invicta Games",
+		"fr": "Robot pour les jeux Invicta"
+	},
+	"paragraphs": {
+		"en": [
+			{
+				"content": "With the pandemic making it almost impossible for the build team to meet up and plan for the construction of the robot, they had to organize meetings on Teams. They first used applications such as Tinkercad and Fusion 360 to do some of the initial sketches and plans for the robot. It was using applications such as GrabCAD, an engineering application, that they were able to make a 3D model of the robot. The application allowed multiple team members to collaborate and include various parts such as the motors, the wheels, the electronics, etc. Many hours were spent on working on these applications during the months of January and February.  Nevertheless, they also included specific 3D-drawings of some of the intricate parts of the robot like the conveyor belt, T-slot hex mount, sponge wall, etc."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (2).png"
+					},
+					{
+						"src":"build (4).png"
+					},
+					{
+						"src":"build (3).png"
+					},
+					{
+						"src":"build (1).png"
+					}
+				]
+			},
+			{
+				"content": "The dimension of the robot are 24 inches (length) by 24 inches (width) by 29 inches (height). This year, the frame and shafts were built from recycled metal parts from last year’s robot. However, it was not enough, so we ordered more of the same kind of metal. The pieces were all precisely cut by hand to fit to their new purpose. The team used the maximum number of motors, called Gearbox. The wheels used, called HI Grip, are different compared from last year’s robot. For this year’s competition, the autonomous robot does not have to do many manoeuvres, but it can move as freely as it did during the FLIP 2020 competition. Thus, the robot has a set of wheels that allows it to move like a tank with less abrupt and instant turns, while being able to reverse as well."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (4).jpg"
+					},
+					{
+						"src":"build (2).jpg"
+					},
+					{
+						"src":"build (6).jpg"
+					}
+				]
+			},
+			{
+				"content": "In the front of the robot, there is a set of four wheels which brings the blocks up into their respective shelves to be ready to construct the structure desired for each game. The carjack is there to help by grabbing and pushing the blocks to the compliant wheels. Then, the set can contract to carry the irregularly shaped blocks to their respective shelves because they are made of rubber. The compliant wheels can function properly with the help of a gear and a chain system. The carjack has dual functionality since it also helps the conveyor belt move the blocks to the end of the robot. This part of the robot sort of behaves like a vending machine, but instead, the reverse mechanism occurs where nothing is falls off and blocks are being put into the respective slots. These wheels along with the sponge conveyor belt drag the blocks to other side of the robot where they will be dropped afterwards on the platform to form the structure."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (8).jpg"
+					},
+					{
+						"src":"build (3).jpg"
+					}
+				]
+			},
+			{
+				"content": "The center of the robot comprises of our main components to play the game. There are three walls inside. Two of them are mounted on drawer slides which allows them to be brought back and forth. One of the two walls is a thick 3D printed object which can be divided into three separate parts. The shelves which will contain the blocks are positioned right on those parts. Also, there are pins which are placed to prevent the blocks from moving with the drawer slides when they are pulled back. The conveyor belt would not stop turning but keep on bringing the blocks to the back. So, the pins are needed to keep the blocks in the right place for the desired structure. During the competition, the team would be able to place the pins in the desired holes depending on what they want to build for each round.  The other wall is a thin one that does not move. The thin wall that does not move has holes for the shelves and the pins. At the end of the game, the team can just pull those three parts of the wall out, allowing the shelves to move back, but the blocks are blocked by the thin wall which then allows the structure to fall. The last wall on the opposite side of the last two is the third wall which is basically a conveyor belt that pushes the blocks inside the robot. It is made of six axles with foam wheels that are wrapped around with a cloth that pushes everything equally."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (6).jpg"
+					},
+					{
+						"src":"build (1).jpg"
+					}
+				]
+			}
+		],
+		"fr": [
+			{
+			  "content": "À cause de la pandémie, l’équipe en charge de la construction du robot ne pouvait ni se rencontrer ni planifier la construction de celui-ci donc elle devait organiser des rencontres sur Teams. D’abord, les membres de l’équipe ont utilisé des logiciels tels que Tinkercad et Fusion 360 pour créer des croquis et des plans pour le robot. L’équipe utilisait des applications comme GrabCAD, une application d’ingénierie utilisée pour créer un modèle 3D du robot. Cette application permettait plusieurs membres de l’équipe à collaborer et inclure des parties variées incluant les moteurs, les pneus, les pièces électroniques, etc. Plusieurs heures de travail étaient consacrées dans ces applications pendant les mois de janvier et de février. Néanmoins, l’équipe a aussi inclut des dessins 3D spécifiques de quelques-unes des parties complexes faisant partie du robot par exemple, le convoyeur à courroie, la monture hexagonale de fente T, le mur d’éponge, etc."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (2).png"
+					},
+					{
+						"src":"build (4).png"
+					},
+					{
+						"src":"build (3).png"
+					},
+					{
+						"src":"build (1).png"
+					}
+				]
+			},
+			{
+			  "content": "Les dimensions du robot sont de 24 pouces (grandeur) par 24 pouces (largeur) par 29 pouces (hauteur). Cette année, le cadre et les arbres étaient construits à partir de pièces de métal recyclées provenant du robot de l’année précédente. Cependant, ce n’était pas assez, alors nous avons commandé plus de métal du même type.  Les pièces étaient toutes coupées précisément à la main. L’équipe a utilisé le nombre de moteurs maximum qui s’appelle Gearbox. Les pneus utilisés qui s’appellent HI Grip, sont différents des pneus du robot de l’année précédente. Pour la compétition de cette année, le robot autonome ne doit pas faire plusieurs manœuvres, mais il peut bouger librement comme il l’a fait lors de la compétition FLIP 2020. Donc, le robot possède un ensemble de pneus qui lui permet de bouger comme un char d’assaut avec moins de tours abruptes et instantanés tout en étant capable de reculer."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (4).jpg"
+					},
+					{
+						"src":"build (2).jpg"
+					},
+					{
+						"src":"build (6).jpg"
+					}
+				]
+			},
+			{
+			  "content": "En face, le robot possède un ensemble de quatre roues qui soulève les blocs jusqu’à temps qu’ils se rendent dans leurs étagères respectives pour se préparer à construire la structure désirée pour chaque jeu. Le carjack est en place pour aider à saisir et pousser les blocs vers les pneus auxquels ils s’associent. Ensuite, l’ensemble peut se contracter pour porter les blocs de forme irrégulière jusqu’à leurs étagères respectives parce qu’elles sont faites de caoutchouc. Les pneus peuvent bien fonctionner avec l’aide d’un système d’engrenage et de chaîne. Le carjack possède une deuxième fonction puisqu’elle aide le convoyeur à courroie dans le déplacement des blocs vers la fin du robot. Cette partie du robot se comporte comme un distributeur automatique, mais c’est plutôt le mécanisme inverse qui se produit où rien ne tombe et les blocs se mettent dans leurs fentes respectives. Ces roues qui se situent au long du convoyeur à courroie d’éponge glissent les blocs vers l’autre côté du robot où ils seront déposés plus tard sur la plate-forme pour former la structure."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (8).jpg"
+					},
+					{
+						"src":"build (3).jpg"
+					}
+				]
+			},
+			{
+			  "content": "Le centre du robot constitue de nos éléments principaux pour jouer le jeu. À l’intérieur, il y a trois murs. Deux de ces murs sont installés sur des glissières de tiroir qui leur permet de bouger vers l’avant et vers l’arrière. Un de ces murs est un objet épais imprimé en 3D qui peut être divisé en trois morceaux séparées. Les étagères qui vont contenir les blocs sont positionnées directement sur ces morceaux. Aussi, il y a des épingles qui sont placées afin d’empêcher les blocs de bouger avec les glissières de tiroir lorsqu’ils sont tirés vers l’arrière. Le convoyeur à courroie ne va pas arrêter de tourner, mais il va apporter les blocs vers l’arrière. Alors, les épingles sont nécessaires pour garder les blocs dans la bonne place pour la structure désirée. Pendant la compétition, l’équipe serait capable de placer les épingles dans les trous désirés dépendamment de ce qu’elle veut construire pour chaque tour. L’autre mur est mince et ne bouge pas. Ce mur mince possède des trous pour les étagères et les épingles. À la fin du jeu, l’équipe peut juste tirer ces trois morceaux du mur qui permettra les étagères de reculer, mais les blocs sont bloqués par le mur mince qui permettrait alors la structure de tomber. Le dernier mur dans le côté opposé des deux derniers murs est le troisième mur qui est un convoyeur à courroie qui pousse les blocs dedans le robot. C’est fait à partir de six essieux avec des roues en mousse qui sont enrobées autour avec un chiffon qui pousse tout également."
+			},
+			{
+				"imgs": [
+					{
+						"src":"build (6).jpg"
+					},
+					{
+						"src":"build (1).jpg"
+					}
+				]
+			}
+		  ]
+	}
+}]

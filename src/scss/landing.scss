@@ -1,0 +1,140 @@
+.landing-title {
+	font-family              : myFirstFont;
+	color                    : #ffff00;
+	font-size                : 500%;
+	text-align               : center;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: black;
+}
+
+.language {
+	z-index        : 1;
+	font-family    : myFirstFont;
+	cursor         : pointer;
+	position       : absolute;
+	color          : black;
+	font-size      : 200%;
+	text-decoration: none;
+}
+
+.english {
+	top : 380px;
+	left: 660px;
+}
+
+.french {
+	top : 190px;
+	left: 975px;
+}
+
+.emperor1 {
+	vertical-align: bottom;
+}
+
+.emperor2 {}
+
+.crclogo {
+	position  : fixed;
+	top       : 0px;
+	left      : 0px;
+	box-sizing: border-box;
+}
+
+#landing {
+	background-image: url("/assets/images/backgrounds/romanempire.jpg");
+}
+
+.desktop {
+	// display: flex;
+	// flex-wrap: nowrap;
+}
+
+.mobile {
+	display: none;
+}
+
+.selector {
+	display        : flex;
+	flex-wrap      : wrap;
+	padding        : 1rem;
+	justify-content: center;
+
+	&.center {
+		align-items: center;
+	}
+
+	&.column {
+		flex-direction: column;
+	}
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.lang-emperor {}
+
+
+.select {
+	max-width       : 100vw;
+	
+	font-family: myFirstFont;
+	display    : block;
+	box-sizing : border-box;
+}
+
+.lang.select {
+	font-size       : 5em;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding    : 4rem;
+	&:first-child {
+		// border-radius: 25px;
+		border-top-left-radius   : 10%;
+		border-bottom-left-radius: 10%;
+	}
+
+	&:last-child {
+		// border-radius: 25px;
+		border-top-right-radius   : 10%;
+		border-bottom-right-radius: 10%;
+	}
+
+	&:hover {
+		/* background-color: rgba(0, 0, 0, 0.4);
+	border-radius:  */
+		background-color: rgba(255, 255, 255, 0.7);
+		box-sizing      : border-box;
+		cursor          : pointer;
+	}
+}
+
+
+@media screen and (max-width: 1200px),
+(pointer: coarse) {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	/* .lang-select {
+		min-width: 60vw;
+	} */
+	.selector {
+		min-width : 100vw;
+		min-height: 80vh;
+	}
+
+	h1 {
+		font-size: 7em;
+	}
+
+	body {
+		min-width : 100vw;
+		min-height: 100vh;
+		max-width : 100vw;
+		max-height: 100vh;
+	}
+}
