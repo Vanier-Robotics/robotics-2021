@@ -19,7 +19,8 @@ body {
 	min-height         : 100vh;
 	overflow-x         : hidden;
 	overflow-y         : hidden;
-	font-family: 'Times New Roman', Times, serif;
+	font-family        : 'Times New Roman', Times, serif;
+	color              : black;
 }
 
 a {
@@ -46,14 +47,23 @@ a {
 			255,
 			0.5);
 	/*Making only the window half transparent*/
-	overflow-y   : scroll;
+	overflow-y           : scroll;
 	/*Adding a vertical scrollbar*/
-	/* text-align: center; */
-	margin       : auto;
-	box-sizing   : border-box;
-	margin-top   : 2em;
-	scrollbar-width: thin;
-	scrollbar-track-color: rgba(0,0,0,0);
-	scrollbar-color: grey rgba(0,0,0,0);
-	scroll-behavior: smooth;
+	/* text-align        : center; */
+	margin               : auto;
+	box-sizing           : border-box;
+	margin-top           : 2em;
+	scrollbar-width      : thin;
+	scrollbar-track-color: rgba(0, 0, 0, 0);
+	scrollbar-color      : grey rgba(0, 0, 0, 0);
+	scroll-behavior      : smooth;
+}
+
+.break {
+	flex-basis: 100%;
+	height    : 0;
+}
+.table {
+	color: black;
+	font-size: inherit;
 }

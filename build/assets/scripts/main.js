@@ -5,6 +5,7 @@ function setCookie(cname, cvalue, exdays) {
 	document.cookie = cname + "=" + cvalue + ";" + expires;
 }
 
+
 function getCookie(cname) {
 	var name = cname + "=";
 	var decodedCookie = decodeURIComponent(document.cookie);
@@ -30,4 +31,34 @@ function checkCookie() {
 }
 toggle = function () {
 	document.getElementById("navbar").classList.toggle("visible");
+}
+toggleCookie = function (lang = null) {
+	if (lang !== null) {
+		if (lang == "en") {
+			setCookie('language', 'fr', 365)
+			l = "fr";
+		} else {
+			setCookie('language', 'en', 365)
+			l = "en";
+		}
+	} else {
+		var l;
+		var language = getCookie("language");
+		if (language == "en") {
+			setCookie('language', 'fr', 365)
+			l = "fr";
+		} else {
+			setCookie('language', 'en', 365)
+			l = "en";
+		}
+	}
+	var current_link = window.location.pathname;
+	console.log(x)
+	var x = current_link.split('/')
+	x[1] = l;
+	console.log(x)
+	var new_link = x.join("/")
+	console.log(new_link)
+	window.location.pathname = `${new_link}`
+	// console.log(`${window.location.protocol}${window.location.hostname}/${new_link}`);
 }

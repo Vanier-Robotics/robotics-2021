@@ -12,7 +12,7 @@ body#landing(onload="checkCookie()")
 				img(src="/assets/images/landing/emperor1-edit.png")
 	#landing-mobile.mobile
 		h1.landing-title Welcome to Vanier Robotics 2021!
-		h1.landing-title Bienvenue Chez Vanier Robotique 2021!
+		//- h1.landing-title Bienvenue Chez Vanier Robotique 2021!
 		.selector.center 
-			.lang.select(onclick="setCookie('language', 'fr', 365)") French 
-			.lang.select(onclick="setCookie('language', 'en', 365)") English
+			a.lang.select(onclick="setCookie('language', 'fr', 365)", href="/fr") French 
+			a.lang.select(onclick="setCookie('language', 'en', 365)", href="/en") English

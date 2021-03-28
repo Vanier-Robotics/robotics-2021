@@ -36,14 +36,18 @@ mixin article(article)
 			.paragraph 
 				if (p.subtitle !== null && p.subtitle !== undefined)
 					h1.subtitle=p.subtitle
+					.break
 				p
+					if (p.subby !== null && p.subby !== undefined)
+						span.subby=p.subby
+						span.break
 					if (p.imgs !== null && p.imgs !== undefined)
 						for i in p.imgs
 							if (i.side !== null && i.side !== undefined)
 								img.image.img-responsive(class=i.side + " " + i.class src="/assets/images/articles/" + i.src alt="altText")
 							else
 								img.image.left.img-responsive(class=i.class, src="/assets/images/articles/" + i.src alt="altText")
-					| #{p.content}
+					| !{p.content}
 
 mixin archiveNav(article)
 	li.archive-nav-item

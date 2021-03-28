@@ -6,6 +6,8 @@ const chokidar = require('chokidar');
 const archives_fp = "src/data/archives/archives.json";
 const members_fp = "src/data/roster/members-test.json";
 const translation_fp = "src/data/text.json";
+const robot_fp = "src/data/robot/robot.json";
+const crc_fp = "src/data/crc/crc.json";
 
 function get(fp) {
 	var rawdata = fs.readFileSync(fp);
@@ -19,6 +21,12 @@ function get_members() {
 }
 function get_translation() {
 	return get(translation_fp);
+}
+function get_robot() {
+	return get(robot_fp);
+}
+function get_crc() {
+	return get(crc_fp);
 }
 
 generate = function (dir, fp, src, data) {
@@ -64,18 +72,34 @@ function generate_roster(langs, roster) {
 		})
 	})
 }
-
+function generate_article(lang,page, articles) {
+	generate(`build/${lang}/${page}`,
+	"index.html",
+	"src/pug/pages/text-page.pug",
+	{
+		lang: lang,
+		articles: articles,
+	}
+)
+}
 function generate_robot(langs, robot) {
 	langs.forEach(lang => {
-		generate(`build/${lang}/robot`,
-		"index.html",
-		"src/pug/pages/text-page.pug",
-		{
-			lang:lang,
-			text:robot,
-		}
-		
-		)
+		generate_article(lang, "robot", robot)
+	})
+}
+
+function generate_crc(langs, crc) {
+	langs.forEach(lang => {
+		generate_article(lang, "crc", crc);
+		// generate(
+		// 	`build/${lang}/crc`,
+		// 	"index.html",
+		// 	"src/pug/pages/crc.pug",
+		// 	{
+		// 		crc:crc,
+		// 		lang:lang
+		// 	}
+		// )
 	})
 }
 
@@ -92,14 +116,18 @@ function generate_map(langs) {
 function main() {
 	var archives = get_archives()
 	var roster = get_members();
+	var robot = get_robot();
+	var crc = get_crc();
 	let articles = [
 		archives.build, archives.kiosk, archives.video, archives.journalism
-	];
-	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
-	generate_archives(langs, articles)
-	generate_roster(langs, roster)
-	generate_map(langs)
-	console.log("Generated Website!")
+	];	
+	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {});
+	generate_map(langs);
+	generate_archives(langs, articles);
+	generate_roster(langs, roster);
+	generate_robot(langs, robot);
+	generate_crc(langs, crc);
+	console.log("Generated Website!");
 }
 let langs = ["en", "fr"];
 

@@ -1,4 +1,5 @@
 extends ../template
 
 block content
-	+article(text)
+	for n in articles
+		+article(n)

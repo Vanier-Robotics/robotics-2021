@@ -4,5 +4,5 @@ block content
 	ul.archive-nav
 		for n in articles.reverse()
 			+archiveNav(n)
-	for n in articles
+	for n in articles.reverse()
 		+article(n)

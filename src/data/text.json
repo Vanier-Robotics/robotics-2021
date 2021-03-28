@@ -29,7 +29,7 @@
 			},
 			"crc": {
 				"en": "War Front",
-				"fr": "CRC"
+				"fr": "Ligne de Front"
 			}
 		}
 	},
@@ -59,7 +59,7 @@
 		"captain": {
 			"en":"Captains",
 			"fr":"Capitaines",
-			"t":"captains"
+			"t":"captain"
 		},
 		"build": {
 			"en":"Build",
@@ -85,6 +85,39 @@
 			"en":"Web Site",
 			"fr":"Site Web",
 			"t":"web"
+		},
+		"mentors": {
+			"en": "Mentors",
+			"fr": "Mentors",
+			"t": "mentors"
+		}
+	},
+	"map": {
+		"links": {
+			"map":{
+				"en": "Map",
+				"fr": "Carte"
+			},
+			"roster": {
+				"en":"Militia - Team",
+				"fr": "Milice - Équipe"
+			},
+			"robot": {
+				"en": "Artillery - Robot",
+				"fr": "Artillerie - Robot"
+			},
+			"archives":{
+				"en": "Archives",
+				"fr": "Archives"
+			},
+			"video": {
+				"en":"Amphitheatre - Video",
+				"fr":"Amphithéâtre - Video"
+			},
+			"crc": {
+				"en": "War Front - Invicta",
+				"fr": "Ligne de Front - Invicta"
+			}
 		}
 	}
 }

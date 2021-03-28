@@ -705,7 +705,7 @@
 			},
 			"What sub-teams are you a part of in robotics?": {
 				"en": [
-					"Captain"
+					"Mentor"
 				],
 				"fr": [
 					"Mentor"
@@ -732,7 +732,7 @@
 				"fr": ""
 			},
 			"teams": [
-				"Captain"
+				"Mentors"
 			],
 			"img": "error/6"
 		},
@@ -904,6 +904,7 @@
 		"Programming",
 		"Kiosk",
 		"Video",
-		"Web"
+		"Web",
+		"Mentors"
 	]
 }
