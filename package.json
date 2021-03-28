@@ -1,0 +1,22 @@
+{
+  "name": "robotics-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Vanier-Robotics/robotics-2021.git",
+  "author": "shadowlerone <andrae.lewis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "chokidar": "^3.5.1",
+    "jstransformer-markdown-it": "^2.1.0",
+    "log-timestamp": "^0.3.0",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.32.8",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "sass": "sass --style compressed --watch src/scss/main.scss build/assets/stylesheets/stylesheet.css",
+    "serve": "serve build"
+  }
+}

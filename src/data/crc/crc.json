@@ -1,0 +1,162 @@
+[
+	{
+		"t": "crc",
+		"title": {
+			"en": "CRC",
+			"fr": "CRC"
+		},
+		"paragraphs": {
+			"en": [
+				{
+					"imgs": [
+						{
+							"src": "CRC logo.png"
+						}
+					],
+					"content": "If you are unaware, the CRC refers to the Canadian Robotics Competition, a yearly competition in which different high schools as well as colleges participate; it lasts for a total of 3 days during the month of February. However, this year, due to the pandemic, it was reported to April. This would give students more time to prepare since there are many difficulties that are faced when working over a computer screen. The students are asked to prepare a robot to play a complex game, a kiosk to showcase their school, a video presenting a storyline, a complete website with its journalism, and even programming. These components of the competition put into practice both their creativity and their knowledge of robotics and science. Starting in 2001, the CRC team has been promoting teamwork, bilingualism, and the learning of multidisciplinary skills in science, mathematics, computers,  Most importantly, CRC volunteers reach as many people as possible—mostly students—and spark some interest towards the science, technology, engineering, and mathematics fields."
+				},
+				{
+					"content": "During the year 2020, we have all faced certain difficulties, and we are still facing some of them today.  The CRC team, under theses conditions, have decided to alleviate the situation by proceeding with the competition. This way, the hard-working students will be able to participate once more. However, for the safety of all, the CRC have decided to make certain changes. The different robotics teams are now asked to make a kiosk video in the form of a Ted Talk and an independent robot which will not need a person to control, making the competition virtual. The other components—namely the website, the journalism, and the video—remain the same."
+				}
+			],
+			"fr": [
+				{
+					"imgs": [
+						{
+							"src": "CRC logo.png"
+						}
+					]
+				},
+				{
+					"content": "Si vous ne le savez pas, la CRC fait référence à la Compétition Canadienne de Robotiques, une compétition annuelle auquelle participent différentes écoles secondaires et cégeps; elle dure 3 jours durant le mois de février. Les étudiants sont invités à préparer un robot pour jouer à un jeu complexe, un kiosque pour présenter leur école, une vidéo présentant une histoire, un site Web avec son journalisme et même de la programmation. Ces composantes de la compétition mettent en pratique à la fois la créativité et les connaissances en robotique et en science. Depuis 2001, l'équipe de CRC fait la promotion du travail d'équipe, du bilinguisme et de l'apprentissage de compétences multidisciplinaires en sciences, mathématiques, informatiques, arts et en langues. Plus important encore, ils veulent atteindre autant de personnes que possible - principalement des étudiants - et susciter un certain intérêt pour les domaines des sciences, de la technologie, de l'ingénierie et des mathématiques."
+				},
+				{
+					"content": "Au cours de l'année 2020, nous avons tous été confrontés avec certaines difficultés et nous sommes encore confrontés à certains d’entre eux aujourd’hui. L'équipe CRC, dans ces conditions, a décidé de soulager à la situation en procédant avec la compétition. De cette façon, les étudiants travaillants pourront à nouveau y participer. Cependant, pour la sécurité de tous, l CRC a décidé d'apporter certaines modifications. Les différentes équipes de robotique sont désormais demandées de réaliser une vidéo pour le kiosque sous la forme d'un Ted Talk et un robot indépendant qui n'aura pas besoin d'une personne pour le contrôler, rendant la compétition virtuelle. Les autres composants—c’est à dire, le site Web, le journalisme et la vidéo—restent les mêmes."
+				}
+			]
+		}
+	},
+	{
+		"t": "2021",
+		"title": {
+			"en": "This Year's Game: Invicta 2021",
+			"fr": "À Propos du jeu de cette année: Invicta 2021"
+		},
+		"paragraphs": {
+			"en": [
+				{
+					"subtitle": "The Goal",
+					"content": "This year, for Invicta 2021, each robot must construct a structure with different types of blocks (cubes, various prisms, etc.). By increasing the difficulty of this said structure, teams will acquire more points, and the school with the most points will win."
+				},
+				{
+					"subtitle": "The Rules:",
+					"subby": "Teams:",
+					"content": "Contrarily to previous years, different schools will not be teaming up. The robots will play individually."
+				},
+				{
+					"subby": "The Playing Field:",
+					"content": "The playing field is a single-level rectangle with different sections. The starting zone is placed at the center of the field; there is only one.There are five zones for game pieces (GPs), each for a specific kind. A small wooden \"basketball hoop\" sits in the right corner of the field. At the top of the playing field, there is a rectangular construction zone."
+				},
+				{
+					"imgs": [
+						{
+							"src": "GameMat.png"
+						}
+					]
+				},
+				{
+					"subby": "The Game Pieces:",
+					"content": "The playing pieces are blocks with various shapes and sizes: <ul><li>Cubes</li><li> Square-based prisms (short and long ones)</li><li>Triangular-based prisms</li><li> Trapezoidal-based prisms</li></ul>The amount of game pieces available will depend on the amount needed for a given structure. A robot does not have a limit to the number of blocks it may hold."
+				},
+				{
+					"subby": "The Ring:",
+					"content": "The Ring acts as a multiplier for the total number of points. To obtain the multiplier, the robot must successfully put the tennis ball in the Ring. When the ball falls in the Ring, the heat will immediately come to a stop."
+				},
+				{
+					"imgs": [
+						{
+							"src": "ring.png"
+						}
+					]
+				},
+				{
+					"subby": "Putting the Game Pieces into Play:",
+					"content": "Before the beginning of each heat, the playing pieces must be placed in the respective zones by a team member. They can be positioned in any way that the team wishes as long as it is completely in the zone and touching the ground. Any kind of adhesive tape is allowed for the blocks to be outlined. Only the blocks and the amount needed to build the chosen structure are allowed on the field; the others must be removed. At the beginning of the heat, the team may choose where the tennis ball will be placed. In or on the robot, or anywhere else on the field will be allowed, as long as it does not touch the Ring. The playing pieces that fall out of the playing field will not be allowed back in the game; it will be considered out of play."
+				},
+				{
+					"subby": "The Construction Plan:",
+					"content": "A Construction Plan card has:<span class='break'></span><div class='row'><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div><div class='col-9'><ol><li>A Plan Number</li><li>A front view as well as an isometric view of the structure</li><li>The number of points given to the execution of the structure</li><li>The level of difficulty attributed to the structure</li></ol></div></div>The Construction Plan must be chosen—among the 25 that are available—by the team before a heat begins. A successful card can only be used once in the same heat block. If the card is not successful, a team may use it as many times as they want."
+				},
+				{
+					"subby": "Scoring Points:",
+					"content": "Points will be given to a team if their robot correctly builds a structure according to the Construction Plan card, in the construction zone. Each block that is correctly placed will be attributed a certain number of points depending on its type:<table class='table'><thead><tr><th>Shape</th><th>Points</th></tr></thead><tbody><tr><td>Cube</td><td>10</td></tr><tr><td>Trapezoidal-based prism</td><td>25</td></tr><tr><td>Short square-based prism</td><td>30</td></tr><tr><td>Triangular-based prism</td><td>35</td></tr><tr><td>Long square-based prism</td><td>40</td></tr></tbody></table>If all the wooden blocks are correctly placed—in other words, the Construction Plan is fully executed—bonus points will be given depending on the difficulty level of the structure. For the difficulty levels 1, 2, 3 , 4, 5, or 6, a bonus of 20 pts, 30 pts, 45 pts, 60 pts, 100 pts, or 200 pts will be given, respectively. If multiple structures are built at the end of a heat, only the structure that will earn the highest number of points will be considered. Once it falls in the Ring, the tennis ball will multiply a team’s score for a given heat according to the elapsed time on the clock."
+				},
+				{
+					"subby": "Arbitration and Penalties:",
+					"content": "The referees always have the final word when it comes to the assessment of penalties. However, every team can challenge its final score with video evidence during the first 10 minutes after a heat. Any robot that is found dangerous runs the risk of being disqualified. In the case of any unsportsmanlike conduct, a team will be given a penalty by the head referee. Points will be deducted from the team’s total score depending on the severity of the act. These include inappropriate behaviour towards another person, or even a deliberate attempt to disrespecting social distancing guidelines. If liquid seeps from the robot, a score of 0 pts will be given for the heat. If a robot part falls off the robot, intentionally or not, and it is no longer in contact with the robot by the end of the heat, the Team will be deducted 4% of their total score (for each junk piece that has fallen). If a team receives assistance for their robot by a referee, they will have 20% of their score deducted for the heat."
+				},
+				{
+					"subby": "Heat Progress",
+					"content": "Each robot starts the heat in the staring zone. At the beginning of each heat, a team member must press the button on the robot to launch the program. Each team is allowed to pre-load one wooden block on their robot. All heats last 5 minutes and ends once the buzzer goes off. At this time, the kill switch must be activated by a team member. The playing pieces will only be considered once they stop moving. The heat will end before the 5-minute mark if a referee stops the robot or if the tennis ball falls in the Ring. Team members are not permitted to interfere with any elements of the playing field and the game’s blocks."
+				}
+			],
+			"fr": [
+				{
+					"subtitle": "L’objectif:",
+					"content": "Cette année, pour Invicta 2021, chaque robot doit construire une structure avec différents types de blocs (cubes, divers prismes, etc). En augmentant la difficulté de cette dite structure, les équipes gagneront plus de points et l'école avec le plus de points gagnera."
+				},
+				{
+					"subtitle": "Les règlements:",
+					"subby": "Les équipes:",
+					"content": "Contrairement aux années précédentes, les écoles ne seront pas en équipe. Les robots joueront individuellement."
+				},
+				{
+					"subby": "Le terrain de jeu:",
+					"content": "Le terrain de jeu est un  rectangle à un seul niveau avec différentes sections. La zone de départ est placée au centre du terrain; il n’y a q’un seul. Il y a cinq zones pour les pièces de jeu (PJs), chacune pour un type spécifique. Un petit “panier de basket” en bois se trouve dans le coin droit du terrain. Au sommet du terrain de jeu, il y a une zone de construction rectangulaire."
+				},
+				{
+					"imgs": [
+						{
+							"src": "GameMat.png"
+						}
+					]
+				},
+				{
+					"subby": "Les pièces de jeu:",
+					"content": "Les pièces de jeu sont des blocs de formes et de tailles variées: <ul><li>Cubes</li><li>Prismes à base carrée (courts et longs)</li><li>Prismes à base triangulaire</li><li>Prismes à base trapézoidale</li></ul>La quantité de pièces de jeu disponibles dépendra de la quantité nécessaire pour une certaine structure. Un robot n'a pas de limite au nombre de blocs qu'il peut tenir."
+				},
+				{
+					"subby": "L’anneau:",
+					"content": "L'anneau agit comme un multiplicateur pour le nombre total de points. Pour obtenir le multiplicateur, le robot doit réussir à mettre la balle de tennis dans l’anneau. Lorsque la balle tombe dans l'anneau, la manche s'arrêtera immédiatement."
+				},
+				{
+					"imgs": [
+						{
+							"src": "ring.png"
+						}
+					]
+				},
+				{
+					"subby": "Mettre les blocs en jeu:",
+					"content": "Avant le début de chaque manche, les pièces de jeu doivent être placées dans les zones respectives par un membre de l'équipe. Elles peuvent être positionnées de n'importe quelle manière tant qu'elles sont complètement dans la zone et touchent le sol. Tout type de ruban adhésif est autorisé pour faire un contour des blocs. Seuls les blocs  nécessaires à la construction de la structure choisie par l’équipe sont autorisés sur le terrain; les autres doivent être enlever. Au début de la manche, l'équipe peut choisir où la balle de tennis sera placée. Dans ou sur le robot, ou n'importe où ailleurs sur le terrain sera autorisé, tant qu'il ne touche pas l'anneau. Les pièces de jeu qui tombent hors du terrain ne seront pas autorisées à revenir dans le jeu; ils seront considérées comme hors jeu."
+				},
+				{
+					"subby": "Les cartes de construction:",
+					"content": "Une carte de construction possède:<span class='break'></span><div class='row'><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div><div class='col-9'><ol><li>Un numéro de carte</li><li>La structure vue de face et vue isométrique</li><li>Le pointage de la carte</li><li>Le niveau de difficulté</li></ol></div></div>La carte de construction doit être choisie—parmi les 25 disponibles—par l'équipe avant le début d'une manche. Une carte réussie ne peut être utilisée qu'une seule fois dans le même bloc de parties. Si la carte est échouée, une équipe peut l'utiliser autant de fois qu'elle le souhaite."
+				},
+				{
+					"subby": "Marquer des Points:",
+					"content": "Des points seront attribués à une équipe si leur robot construit correctement une structure selon la carte de construction, dans la zone de construction. Chaque bloc correctement placé serra attribuer un certain nombre de points en fonction de son type:<table class='table'><thead><tr><th>Type</th><th>Pointage</th></tr></thead><tbody><tr><td>Cube</td><td>10</td></tr><tr><td>Prisme à base trapézoidale</td><td>25</td></tr><tr><td>Prisme court à base carrée</td><td>30</td></tr><tr><td>Prisme à base triangulaire</td><td>35</td></tr><tr><td>Prisme long à base carrée</td><td>40</td></tr></tbody></table>Si tous les blocs de bois sont correctement placés—en d'autres termes, le plan de construction est entièrement exécuté - des points bonus seront attribués en fonction du niveau de difficulté de la structure. Pour les niveaux de difficulté 1, 2, 3, 4, 5 ou 6, un bonus de 20 pts, 30 pts, 45 pts, 60 pts, 100 pts ou 200 pts sera donné, respectivement. Si plusieurs structures sont construites à la fin d'une manche, seule la structure qui gagnera le plus grand nombre de points sera considérée. Une fois tombée dans l’anneau, la balle de tennis multipliera le score d’une équipe pour une manche en fonction du temps écoulé au chronomètre.<table class='table'><tbody><tr><td>0-1 min.</td><td>x4</td></tr><tr><td>1-2 min.</td><td>x3</td></tr><tr><td>2-3 min.</td><td>x2</td></tr><tr><td>3-5 min.</td><td>x1</td></tr></tbody></table>"
+				},
+				{
+					"subby": "Arbitrage et pénalités:",
+					"content": "Les arbitres ont toujours le dernier mot en ce qui concerne l’estimation des pénalités. Cependant, chaque équipe peut contester son score final avec des preuves vidéos pendant les 10 premières minutes après une manche. Tout robot jugé dangereux court le risque d'être disqualifié. En cas de conduite antisportive, une équipe se verra infliger une pénalité par l'arbitre en chef. Des points seront déduits du score total de l’équipe en fonction de la gravité de l’acte. Ceux-ci incluent un comportement inapproprié envers une autre personne, ou même une tentative délibérée de ne pas respecter les directives de distanciation sociale. Si du liquide suinte du robot, un score de 0 pts sera attribué pour la partie. Si une partie du robot tombe du robot, intentionnellement ou non, et qu'elle n'est plus en contact avec le robot à la fin de la manche, l'équipe sera déduite 4% de son score final (pour chaque morceau de ferraille tombé). Si une équipe reçoit de l'aide pour son robot par un arbitre, elle aura 20% de son score déduit pour la manche."
+				},
+				{
+					"subby": "Déroulement de la partie:",
+					"content": "Chaque robot démarre la manche dans la zone de départ. Au début de chaque manche, un membre de l'équipe doit appuyer sur le bouton du robot pour commencer le programme. Chaque équipe est autorisée de pré-charger un bloc de bois sur son robot. Toutes les manches durent 5 minutes et se terminent une fois que le buzzer se déclenche. À ce moment, l’interrupteur d’urgence doit être activé par un membre de l'équipe. Les pièces de jeu ne seront prises en compte qu'une fois qu'elles cesseront de bouger. La manche se terminera avant la fin des 5 minutes si un arbitre arrête le robot ou si la balle de tennis tombe dans l’anneau. Les membres de l'équipe ne sont pas autorisés à interférer avec les éléments du terrain de jeu et les blocs du jeu."
+				}
+			]
+		}
+	}
+]

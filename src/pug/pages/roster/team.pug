@@ -1,0 +1,9 @@
+extends ../../template
+
+block content
+	ul.archive-nav.border-bottom
+		for n in text.teams
+			+rosterNav(n, t)
+	.card-columns.d-flex.flex-wrap
+		each n in fmembers
+			+member(n)

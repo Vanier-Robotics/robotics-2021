@@ -1,0 +1,123 @@
+{
+	"navbar": {
+		"header": {
+			"toggle": {
+				"en":"Fr",
+				"fr":"En"
+			}
+		},
+		"links": {
+			"map":{
+				"en": "Map",
+				"fr": "Carte"
+			},
+			"roster": {
+				"en":"Roster",
+				"fr": "Équipe"
+			},
+			"robot": {
+				"en": "Robot",
+				"fr": "Robot"
+			},
+			"archives":{
+				"en": "Archives",
+				"fr": "Archives"
+			},
+			"video": {
+				"en":"Video",
+				"fr":"Vidéo"
+			},
+			"crc": {
+				"en": "War Front",
+				"fr": "Ligne de Front"
+			}
+		}
+	},
+	"member": {
+		"teams": {
+			"en": "Teams",
+			"fr": "Équipes"
+		},
+		"moments": {
+			"en": "Most memorable event(s) in robotics for 2020-2021?",
+			"fr": "Moment le plus mémorable de la saison 2020-2021"
+		},
+		"numeral": {
+			"en":"Favorite Roman numeral?",
+			"fr":"Chiffre romain préféré?"
+		},
+		"emperor": {
+			"en":"Favorite emperor?",
+			"fr":"Empereur préféré?"
+		},
+		"job": {
+			"en":"Job?",
+			"fr":"Travail?"
+		}
+	},
+	"teams": {
+		"captain": {
+			"en":"Captains",
+			"fr":"Capitaines",
+			"t":"captain"
+		},
+		"build": {
+			"en":"Build",
+			"fr":"Contruction",
+			"t":"build"
+		},
+		"programming": {
+			"en":"Programming",
+			"fr":"Programmation",
+			"t":"programming"
+		},
+		"kiosk": {
+			"en":"Kiosk",
+			"fr":"Kiosque",
+			"t":"kiosk"
+		},
+		"video": {
+			"en":"Video",
+			"fr":"Vidéo",
+			"t":"video"
+		},
+		"web": {
+			"en":"Web Site",
+			"fr":"Site Web",
+			"t":"web"
+		},
+		"mentors": {
+			"en": "Mentors",
+			"fr": "Mentors",
+			"t": "mentors"
+		}
+	},
+	"map": {
+		"links": {
+			"map":{
+				"en": "Map",
+				"fr": "Carte"
+			},
+			"roster": {
+				"en":"Militia - Team",
+				"fr": "Milice - Équipe"
+			},
+			"robot": {
+				"en": "Artillery - Robot",
+				"fr": "Artillerie - Robot"
+			},
+			"archives":{
+				"en": "Archives",
+				"fr": "Archives"
+			},
+			"video": {
+				"en":"Amphitheatre - Video",
+				"fr":"Amphithéâtre - Video"
+			},
+			"crc": {
+				"en": "War Front - Invicta",
+				"fr": "Ligne de Front - Invicta"
+			}
+		}
+	}
+}
