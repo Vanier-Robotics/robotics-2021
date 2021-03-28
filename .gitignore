@@ -3,3 +3,25 @@ node_modules
 /src/data/roster/french.json
 /build/fr-del
 /build/en-del
+/MapPage2
+/original files
+/src/data/archives/paragraphs_to_json.ruby
+/src/data/archives/src.txt
+/src/data/archives/out.json
+/src/data/crc/Untitled-1.html
+/src/data/crc/Untitled-1.min.html
+/src/data/crc/Untitled-2.html
+/src/data/crc/Untitled-2.min.html
+/src/data/roster/Bio about all members in French.csv
+/src/data/roster/cleanup.rb
+/src/data/roster/english.csv
+/src/data/roster/english.json
+/src/data/roster/Form (with 18 members on it).csv
+/src/data/roster/Form about yourself(1-3).csv
+/src/data/roster/french.csv
+/src/data/roster/members-en.json
+/src/data/roster/members-fr.json
+/src/data/roster/members.json
+/src/data/roster/members2.json
+/src/data/roster/members3.json
+/src/data/roster/members4.json
