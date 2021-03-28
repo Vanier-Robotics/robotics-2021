@@ -67,3 +67,8 @@ a {
 	color: black;
 	font-size: inherit;
 }
+@media only screen and (max-width: 1200px){
+	.window {
+		width: 100vw;
+	}
+}

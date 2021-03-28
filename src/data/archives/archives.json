@@ -113,8 +113,8 @@
 	"journalism": {
 		"t": "journalism",
 		"title": {
-			"en": "Journalism and Website",
-			"fr": "Journalisme et Site Web"
+			"en": "Journalism & Website",
+			"fr": "Journalisme & Site Web"
 		},
 		"paragraphs": {
 			"en": [
@@ -150,8 +150,8 @@
 	"build": {
 		"t": "build",
 		"title": {
-			"en": "Build",
-			"fr": "Construction"
+			"en": "Build & Programming",
+			"fr": "Construction & Programmation"
 		},
 		"paragraphs": {
 			"en": [

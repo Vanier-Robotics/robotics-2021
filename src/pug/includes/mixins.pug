@@ -7,9 +7,10 @@ mixin member(m)
 			h6.card-subtitle=text.member.teams[lang]
 			p.card-text=m["What sub-teams are you a part of in robotics?"][lang].join(", ")
 			hr
-			h6.card-subtitle=text.member.moments[lang]
-			p.card-text=m["Most memorable event(s) or experiences you have had in robotics for 2020-2021:"][lang]
-			hr
+			if (m["Most memorable event(s) or experiences you have had in robotics for 2020-2021:"][lang] != "")
+				h6.card-subtitle=text.member.moments[lang]
+				p.card-text=m["Most memorable event(s) or experiences you have had in robotics for 2020-2021:"][lang]
+				hr
 			h6.card-subtitle=text.member.numeral[lang]
 			p.card-text=m["What is your favorite number ( in Roman numerals)?"][lang]
 			hr

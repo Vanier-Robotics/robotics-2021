@@ -734,7 +734,7 @@
 			"teams": [
 				"Mentors"
 			],
-			"img": "error/6"
+			"img": "Richard Li"
 		},
 		{
 			"Name": "Jad Ashkar",
@@ -896,6 +896,45 @@
 				"Web"
 			],
 			"img": "error/6"
+		},
+		{
+			"Name": "Ashley Rankin",
+			"What is your name?": {
+				"en": "Ashley Rankin",
+				"fr": "Ashley Rankin"
+			},
+			"What sub-teams are you a part of in robotics?": {
+				"en": [
+					"Mentor"
+				],
+				"fr": [
+					"Mentor"
+				]
+			},
+			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": {
+				"en": "",
+				"fr": ""
+			},
+			"What is your favorite number ( in Roman numerals)?": {
+				"en": "CCXXII",
+				"fr": "CCXXII"
+			},
+			"Who is your favorite emperor of the Roman Empire?": {
+				"en": "Livia (empress)",
+				"fr": "Livia (empress)"
+			},
+			"What job would you want to have in being a part of the Roman Empire?": {
+				"en": "Teacher",
+				"fr": "Enseignant"
+			},
+			"You can upload a picture of yourself that will be used for your biography page on the robotics page. You do not have to upload a picture at all if you are not comfortable or do not want to. This i...": {
+				"en": "",
+				"fr": ""
+			},
+			"teams": [
+				"Mentors"
+			],
+			"img": "Ashley Rankin"
 		}
 	],
 	"teams": [

@@ -73,7 +73,7 @@
 				},
 				{
 					"subby": "The Construction Plan:",
-					"content": "A Construction Plan card has:<span class='break'></span><div class='row'><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div><div class='col-9'><ol><li>A Plan Number</li><li>A front view as well as an isometric view of the structure</li><li>The number of points given to the execution of the structure</li><li>The level of difficulty attributed to the structure</li></ol></div></div>The Construction Plan must be chosen—among the 25 that are available—by the team before a heat begins. A successful card can only be used once in the same heat block. If the card is not successful, a team may use it as many times as they want."
+					"content": "A Construction Plan card has:<span class='break'></span><div class='row'><div class='col-9'><ol><li>A Plan Number</li><li>A front view as well as an isometric view of the structure</li><li>The number of points given to the execution of the structure</li><li>The level of difficulty attributed to the structure</li></ol></div><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div></div>The Construction Plan must be chosen—among the 25 that are available—by the team before a heat begins. A successful card can only be used once in the same heat block. If the card is not successful, a team may use it as many times as they want."
 				},
 				{
 					"subby": "Scoring Points:",
