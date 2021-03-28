@@ -24,10 +24,7 @@ function getCookie(cname) {
 
 function checkCookie() {
 	var language = getCookie("language");
-	// if (language == "english") {
-	// 	window.location = "https://www.facebook.com/";
-	// } else if (language == 'french')
-	// window.location = "https://fr-ca.facebook.com/";
+	window.location.pathname = `/${language}`;
 }
 toggle = function () {
 	document.getElementById("navbar").classList.toggle("visible");
