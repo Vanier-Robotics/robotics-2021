@@ -26,6 +26,10 @@
 			"video": {
 				"en":"Video",
 				"fr":"Vidéo"
+			},
+			"crc": {
+				"en": "War Front",
+				"fr": "CRC"
 			}
 		}
 	},
@@ -54,32 +58,32 @@
 	"teams": {
 		"captain": {
 			"en":"Captains",
-			"fr":"",
+			"fr":"Capitaines",
 			"t":"captains"
 		},
 		"build": {
 			"en":"Build",
-			"fr":"",
+			"fr":"Contruction",
 			"t":"build"
 		},
 		"programming": {
 			"en":"Programming",
-			"fr":"",
+			"fr":"Programmation",
 			"t":"programming"
 		},
 		"kiosk": {
 			"en":"Kiosk",
-			"fr":"",
+			"fr":"Kiosque",
 			"t":"kiosk"
 		},
 		"video": {
 			"en":"Video",
-			"fr":"",
+			"fr":"Vidéo",
 			"t":"video"
 		},
 		"web": {
-			"en":"Web",
-			"fr":"",
+			"en":"Web Site",
+			"fr":"Site Web",
 			"t":"web"
 		}
 	}

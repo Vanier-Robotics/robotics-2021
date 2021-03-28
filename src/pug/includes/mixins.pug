@@ -40,9 +40,9 @@ mixin article(article)
 					if (p.imgs !== null && p.imgs !== undefined)
 						for i in p.imgs
 							if (i.side !== null && i.side !== undefined)
-								img.image(class=i.side + " " + i.class src="/assets/images/articles/" + i.src alt="altText")
+								img.image.img-responsive(class=i.side + " " + i.class src="/assets/images/articles/" + i.src alt="altText")
 							else
-								img.image.left(class=i.class, src="/assets/images/articles/" + i.src alt="altText")
+								img.image.left.img-responsive(class=i.class, src="/assets/images/articles/" + i.src alt="altText")
 					| #{p.content}
 
 mixin archiveNav(article)
@@ -55,3 +55,11 @@ mixin rosterNav(team, active)
 			a.archive-nav-link.active(href="/" + lang + "/roster/"+team.t)=team[lang]
 		else
 			a.archive-nav-link(href="/" + lang + "/roster/"+team.t)=team[lang]
+
+
+mixin maplink(url, name, c)
+	a.link(href="/" + lang + "/" + url, class=c)
+		h2=name
+
+mixin mobileMapLink(url, name)
+	a.select.map(href=href="/" + lang + "/" + url)=name

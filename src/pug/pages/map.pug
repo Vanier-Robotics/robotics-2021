@@ -1,0 +1,19 @@
+html
+	include ../includes/head.pug
+	include ../includes/mixins.pug
+body#map-page
+	#map.desktop 
+		+maplink("roster", text.navbar.links.roster[lang], "militia")
+		+maplink("robot", text.navbar.links.robot[lang], "artillery")
+		+maplink("video", text.navbar.links.video[lang], "amphitheatre")
+		+maplink("crc", text.navbar.links.crc[lang], "warfront")
+		+maplink("archive", text.navbar.links.archives[lang], "archives")
+	#mobile-map.mobile 
+		.selector-header 
+			h2 Select your destination:
+		.selector.center.column.map
+			+mobileMapLink("roster", text.navbar.links.roster[lang])
+			+mobileMapLink("robot", text.navbar.links.robot[lang])
+			+mobileMapLink("video", text.navbar.links.video[lang])
+			+mobileMapLink("crc", text.navbar.links.crc[lang])
+			+mobileMapLink("archives", text.navbar.links.archives[lang])

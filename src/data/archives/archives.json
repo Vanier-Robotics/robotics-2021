@@ -51,20 +51,25 @@
 					"imgs": [
 						{
 							"side": "left",
-							"src": "Picture1.jpg",
+							"src": "kiosk (3).png",
 							"class": "full"
 						},
 						{
 							"side": "left",
-							"src": "Picture2.jpg",
+							"src": "kiosk (1).png",
 							"class": "full"
 						},
 						{
 							"side": "left",
-							"src": "Picture3.jpg",
+							"src": "kiosk (2).png",
+							"class": "full"
+						},
+						{
+							"side":"left",
+							"src":"kiosk (4).png",
 							"class": "full"
 						}
-					]	
+					]
 				},
 				{
 					"content": "After the crazy school year we had, we can confidently say we have met our expectations. I believe with the new challenges we had to overcome; we did a very good job at handling all the obstacles we were faced with. Although we were not able to properly meet and have access to all the materials needed to make a fully functional kiosk, with our creative brainstorming skills and dedication to making this year great, we did a wonderful job and should be proud of it!"
@@ -97,7 +102,7 @@
 							"src": "Picture3.jpg",
 							"class": "full"
 						}
-					]	
+					]
 				},
 				{
 					"content": "Après la folle année scolaire que nous avons eue, nous pouvons affirmer avec confiance que nous avons répondu à nos attentes. Je crois avec les nouveaux défis que nous avons dû surmonter; nous avons fait un très bon travail pour gérer tous les obstacles auxquels nous avons été confrontés. Bien que nous n'ayons pas pu nous rencontrer correctement et avoir accès à tout le matériel nécessaire pour créer un kiosque entièrement fonctionnel, grâce à nos compétences en brainstorming créatif et à notre dévouement pour rendre cette année formidable, nous avons fait un travail formidable et devrions en être fiers!"
@@ -105,7 +110,7 @@
 			]
 		}
 	},
-	"journalism" :{
+	"journalism": {
 		"t": "journalism",
 		"title": {
 			"en": "Journalism and Website",
@@ -114,31 +119,92 @@
 		"paragraphs": {
 			"en": [
 				{
-					"content":"This year, there were not many changes when it comes to the tasks that both the website-building and journalism teams must perform. However, the main difficulty was our new form communication. Considering the pandemic that we are all facing, instead of in-person meetings, we had to move to online platforms such as Microsoft Teams for our meetings to take place. "
+					"content": "This year, there were not many changes when it comes to the tasks that both the website-building and journalism teams must perform. However, the main difficulty was our new form communication. Considering the pandemic that we are all facing, instead of in-person meetings, we had to move to online platforms such as Microsoft Teams for our meetings to take place. "
 				},
 				{
-					"content":"Due to this and the change in lifestyle for many—considering the pandemic we are facing—there were few returning members on the website and journalism teams. This made the workload greater for those who decided to remain in or join the teams. "
+					"content": "Due to this and the change in lifestyle for many—considering the pandemic we are facing—there were few returning members on the website and journalism teams. This made the workload greater for those who decided to remain in or join the teams. "
 				},
 				{
-					"content":"When it comes to journalism, the various articles that would be written were easily divided amongst the teammates. Considering that several members were taking part in other sub teams—namely website designing, kiosk building, and video making—it was also easier to write about each sub team’s ups and downs and their experience with the changes that we are facing. This year, new members joined Journalism, and having already participated in this competition previously in their high schools, there was no need for the explanation of what Journalism means when we talk about robotics. This being said, only two to three meetings were required during the year in order to ensure the team’s organisation and understanding our given tasks."
+					"content": "When it comes to journalism, the various articles that would be written were easily divided amongst the teammates. Considering that several members were taking part in other sub teams—namely website designing, kiosk building, and video making—it was also easier to write about each sub team’s ups and downs and their experience with the changes that we are facing. This year, new members joined Journalism, and having already participated in this competition previously in their high schools, there was no need for the explanation of what Journalism means when we talk about robotics. This being said, only two to three meetings were required during the year in order to ensure the team’s organisation and understanding our given tasks."
 				},
 				{
-					"content":"As for the website designing, there were no returning members due to their graduation and the pandemic. However, at the beginning of the year, a whole new group of students who were interested in the conception of the website joined the Vanier Robotics Team. With Roman Empire as the most voted to become our theme, the students in charge of the website had to keep this idea in mind during its construction. Also, some mistakes made in last year’s “Vanier Street” website had to be kept in mind in order to improve ourselves. We first started with the website’s design; during a couple of meetings, we discussed the incorporation of the theme and its aesthetics. However, during this time, due to miscommunication and other complications, advancements on the website were very slow. With the recruitment of a new member, this changed towards the end of February, where we started to accelerate the process. The landing page, the language page, the pages containing the journalism articles, and more were created, and with an existing member  who was knowledgeable on the mobile compatibility of websites and already on the team since the beginning, our website was improved from our previous one. Whether the website conception team members had experience or did not, they all contributed in one way or another to help with the construction of this website."
+					"content": "As for the website designing, there were no returning members due to their graduation and the pandemic. However, at the beginning of the year, a whole new group of students who were interested in the conception of the website joined the Vanier Robotics Team. With Roman Empire as the most voted to become our theme, the students in charge of the website had to keep this idea in mind during its construction. Also, some mistakes made in last year’s “Vanier Street” website had to be kept in mind in order to improve ourselves. We first started with the website’s design; during a couple of meetings, we discussed the incorporation of the theme and its aesthetics. However, during this time, due to miscommunication and other complications, advancements on the website were very slow. With the recruitment of a new member, this changed towards the end of February, where we started to accelerate the process. The landing page, the language page, the pages containing the journalism articles, and more were created, and with an existing member  who was knowledgeable on the mobile compatibility of websites and already on the team since the beginning, our website was improved from our previous one. Whether the website conception team members had experience or did not, they all contributed in one way or another to help with the construction of this website."
 				}
 			],
 			"fr": [
 				{
-					"content":"Cette année, il n'y a pas eu beaucoup de changements en ce qui concerne les tâches que les équipes de la création du site web et de journalisme doivent accomplir. Cependant, la principale difficulté résidait dans notre nouvelle forme de communication. Compte tenu de la pandémie à laquelle nous sommes tous confrontés, au lieu des réunions en personne, nous avons dû passer à des plates-formes en ligne telles que Microsoft Teams pour que nos réunions aient lieu. "
+					"content": "Cette année, il n'y a pas eu beaucoup de changements en ce qui concerne les tâches que les équipes de la création du site web et de journalisme doivent accomplir. Cependant, la principale difficulté résidait dans notre nouvelle forme de communication. Compte tenu de la pandémie à laquelle nous sommes tous confrontés, au lieu des réunions en personne, nous avons dû passer à des plates-formes en ligne telles que Microsoft Teams pour que nos réunions aient lieu. "
 				},
 				{
-					"content":"À cause de cela et du changement de mode de vie pour beaucoup—compte tenu de la pandémie à laquelle nous sommes confrontés—il y avait peu de membres de retour dans les équipes du site web et de journalisme. Cela a augmenté la charge de travail pour ceux qui ont décidé de rester ou de rejoindre les équipes. "
+					"content": "À cause de cela et du changement de mode de vie pour beaucoup—compte tenu de la pandémie à laquelle nous sommes confrontés—il y avait peu de membres de retour dans les équipes du site web et de journalisme. Cela a augmenté la charge de travail pour ceux qui ont décidé de rester ou de rejoindre les équipes. "
 				},
 				{
-					"content":"Pour le journalisme, les différents articles qui devaient être écrits étaient facilement répartis entre nos coéquipiers. Étant donné que plusieurs membres faisaient partie d'autres sous-groupes—c’est à dire la conception du sites web, la création du kiosque et la création de la vidéo, il était également plus facile d'écrire à propos des difficultés et des réussites de chaque sous-groupe et de leur expérience avec les changements auxquels nous sommes confrontés. Cette année, de nouveaux membres ont rejoint l’équipe de journalisme, et ayant déjà participé à cette compétition auparavant dans leurs écoles secondaires, il n'était pas nécessaire d'expliquer ce que signifie le journalisme lorsque nous parlons de robotiques. Cela étant dit, seules deux à trois réunions ont été nécessaires au cours de l’année afin de s’assurer de l’organisation de l’équipe et de la compréhension des tâches qu’on nous avait confiées."
+					"content": "Pour le journalisme, les différents articles qui devaient être écrits étaient facilement répartis entre nos coéquipiers. Étant donné que plusieurs membres faisaient partie d'autres sous-groupes—c’est à dire la conception du sites web, la création du kiosque et la création de la vidéo, il était également plus facile d'écrire à propos des difficultés et des réussites de chaque sous-groupe et de leur expérience avec les changements auxquels nous sommes confrontés. Cette année, de nouveaux membres ont rejoint l’équipe de journalisme, et ayant déjà participé à cette compétition auparavant dans leurs écoles secondaires, il n'était pas nécessaire d'expliquer ce que signifie le journalisme lorsque nous parlons de robotiques. Cela étant dit, seules deux à trois réunions ont été nécessaires au cours de l’année afin de s’assurer de l’organisation de l’équipe et de la compréhension des tâches qu’on nous avait confiées."
 				},
 				{
-					"content":"En ce qui concerne la conception du site web, aucun membre n'est revenu à l’équipe en raison de leurs graduations et de la pandémie. Cependant, en début d'année, un tout nouveau groupe d'étudiants intéressés par la conception du site web s'est joint à notre équipe. Avec l'empire romain étant le plus voté pour devenir notre thème, les étudiants en charge du site ont dû garder cette idée à l'esprit lors de sa construction. De plus, il a fallu garder à l’esprit certaines erreurs commises sur le site web « Vanier Street » de l’année dernière pour nous améliorer. Nous avons commencé par concevoir des idées pour le site web; lors de quelques rencontres, nous avons discuté de l'incorporation du thème et de son esthétique. Cependant, pendant cette période, en raison de mauvaise communication et d'autres complications, les progrès sur le site web ont été très lents. Avec le recrutement d'un nouveau membre, cela a changé vers la fin du mois de février, où nous avons commencé à accélérer le processus. La page d’atterrissage, la page de langue, les pages contenant les articles de journalisme et plus ont été créées, et avec un  membre qui était déjà sur l’équipe et qui connaissait comment rendre un site Web compatible pour les téléphones cellulaires, notre site Web a été amélioré par rapport au précédent. Même si les membres de l'équipe de conception du site aient de l'expérience ou non, ils ont tous contribué d'une manière ou d'une autre à aider à la construction de ce site."
-				}			
+					"content": "En ce qui concerne la conception du site web, aucun membre n'est revenu à l’équipe en raison de leurs graduations et de la pandémie. Cependant, en début d'année, un tout nouveau groupe d'étudiants intéressés par la conception du site web s'est joint à notre équipe. Avec l'empire romain étant le plus voté pour devenir notre thème, les étudiants en charge du site ont dû garder cette idée à l'esprit lors de sa construction. De plus, il a fallu garder à l’esprit certaines erreurs commises sur le site web « Vanier Street » de l’année dernière pour nous améliorer. Nous avons commencé par concevoir des idées pour le site web; lors de quelques rencontres, nous avons discuté de l'incorporation du thème et de son esthétique. Cependant, pendant cette période, en raison de mauvaise communication et d'autres complications, les progrès sur le site web ont été très lents. Avec le recrutement d'un nouveau membre, cela a changé vers la fin du mois de février, où nous avons commencé à accélérer le processus. La page d’atterrissage, la page de langue, les pages contenant les articles de journalisme et plus ont été créées, et avec un  membre qui était déjà sur l’équipe et qui connaissait comment rendre un site Web compatible pour les téléphones cellulaires, notre site Web a été amélioré par rapport au précédent. Même si les membres de l'équipe de conception du site aient de l'expérience ou non, ils ont tous contribué d'une manière ou d'une autre à aider à la construction de ce site."
+				}
+			]
+		}
+	},
+	"build": {
+		"t": "build",
+		"title": {
+			"en": "Build",
+			"fr": "Construction"
+		},
+		"paragraphs": {
+			"en": [
+				{
+					"content": "This year has been quite an experience. The pandemic has affected everyone and none of us were prepared for it. At the beginning, we struggled to find a way to build the robot while social distancing from each other. What made matters worse is the fact that we did not have access to the school and our building room, restricting us to get our equipment and materials. In the meantime, we had chosen for each builder to make certain parts of the robot at their own house, then assemble it later on. However, not all builders had the equipment, the materials, and the knowledge to construct the parts. This issue prompted us to narrow down who was actually capable to work on the robot at home. We had to transport a lot of materials back and forth from each builder’s home, even though most of us did not have a reliable mode of transportation. Furthermore, we also noted those who had a 3D printer in their home, since 3D printing was our best solution. The build team was limited on budget as we did not receive enough funds this year. Thus, 3D printing of our parts had become the most economical solution."
+				},
+				{
+					"content": "After discussing with the school, we were finally granted access to our build room. We took the necessary equipment and materials to distribute them among the team to increase our workforce. We even used the 3D printers at school which we kept an eye on with a live stream of the room."
+				},
+				{
+					"content": "As per usual, we brainstormed our ideas together by sketching them by hand, by using Tinkercad, and by using Fusion 360. The design of the robot's center took the most time. We finalized the design on Fusion 360 and made sure all the pieces and motors were properly aligned."
+				},
+				{
+					"content": "Our worst nightmare became a reality when we were forced to rebuild the robot as there were a lot of errors and inconsistencies which made the assembling impossible."
+				},
+				{
+					"content": "Going over the specifics, we planned to use a scrapped shirt to cover up the conveyor belt made of sponges. It did not create enough friction, so the alternative was to use a broken curtain we found at the college. Fortunately, the fabric created enough friction to satisfy our needs."
+				},
+				{
+					"content": "On the robot, there is a shelf to contain all the blocks necessary to construct the structure for each game. We required a material that was light, sturdy and easily malleable. Wood and metal did not meet all the three requirements; thus, 3D printed parts were our solution."
+				},
+				{
+					"content": "In addition, we have an elevator system to pick up the game pieces with wheels. The original set of wheels we planned to use was too spongy, which reduced the amount of traction. We then settled on a set of sturdy wheels which provided more traction when picking up the blocks."
+				},
+				{
+					"content": "Once we reached the final step of assembling the whole robot, we ran into some issues. Apparently, the conveyor belt and the shelf were blocking each other. Our first idea was to use a motor to move either part, but we had already used the maximum number of motors. The second idea was to use pistons to move the pieces. Unfortunately, we abandoned this idea as it would have complicated the situation and increased the cost of the construction. We realized that we would then be required to purchase the equipment to maintain the air pressure in the piston and strap sensors around the mechanism to make sure it functions properly. We concluded that the best solution was to rework the existing motors. The plan was to have two of the motors switch roles once the first task was accomplished. The motor that activates the carjack which grabs the game pieces will latch onto the conveyor belt and pull it out of the way once the carjack has reached a certain point. The motor which operates the elevator has a ratchet joint that will pull the shelf back to allow the blocks to fall down once the elevator attains a certain height."
+				}
+			],
+			"fr": [
+				{
+					"content": "Cette année a été toute une expérience. La pandémie a touché tout le monde. Aucun de nous n'y était préparé. Au début, nous  avions eu de la difficulté à trouver un moyen  pour construire le robot tout en pratiquant la distanciation sociale entre nous. Le fait que nous n’avions pas eu accès à l’école et à la salle de construction, cela nous a empêchés d’obtenir l’équipement et le matériel nécessaires. En attendant, nous avons décidé de séparer la construction de robot en plusieurs parties pour que chaque constructeur fabrique certaines parties du robot chez eux, puis l'assembler plus tard. Cependant, tous les constructeurs membres n'avaient pas l'équipement, les matériaux et l’expérience nécessaires pour construire les pièces. Ce problème nous a permis de développer nos connaissances sur la robotique de façon autonome et nous a obligé de transporter le matériel requis de l’un chez l’autre.  Par ailleurs, nous avons également déterminé ceux qui  possédaient une imprimante 3D chez eux, puisque l'impression 3D était notre meilleure solution. L'équipe de construction a été limitée par le budget, car nous n'avons pas reçu suffisamment de fonds cette année. Ainsi, l'impression 3D de nos pièces est devenue la solution la plus économique. "
+				},
+				{
+					"content": "Après avoir discuté avec l'école, nous avons finalement eu accès à notre salle de construction. Nous avons pris l'équipement et les matériaux nécessaires pour les répartir entre l'équipe afin d'augmenter notre main-d'œuvre. Nous avons même utilisé les imprimantes 3D à l'école que nous surveillons avec un flux en direct de la salle. "
+				},
+				{
+					"content": "Comme d'habitude, nous avons réfléchi ensemble à nos idées en les esquissant à la main, en utilisant des logiciels tels que Tinkercad et Fusion 360. La conception du centre du robot a pris le plus de temps. Nous avons finalisé la conception sur Fusion 360 et nous nous sommes assurés que toutes les pièces et tous les moteurs étaient correctement alignés. "
+				},
+				{
+					"content": "Malheureusement, nous avons été obligés de reconstruire le robot car il y avait beaucoup d'erreurs et d'incohérences qui ont rendu l'assemblage impossible. "
+				},
+				{
+					"content": "Spécifiquement, nous avons prévu d'utiliser une chemise déchirée pour recouvrir le tapis roulant fait d’éponges. Cela n'a pas créé assez de friction, donc l'alternative était d'utiliser un rideau cassé que nous avons trouvé au collège. Le tissu a créé suffisamment de friction pour satisfaire nos besoins. "
+				},
+				{
+					"content": "Sur le robot, il y a une étagère qui contient tous les blocs nécessaires à la construction de la structure de chaque jeu. Nous avions besoin d'un matériel léger, robuste et facilement malléable. Puisque, le  bois et le métal ne répondaient pas aux trois exigences, nous avons utilisé des pièces imprimées en 3D. "
+				},
+				{
+					"content": "De plus, le robot possède un système d'ascenseur pour ramasser les pièces de jeu avec des roues. Le premier ensemble de roues que nous avions prévu d'utiliser était trop élastique, cela réduisait la force de traction. Nous avons donc installé un  ensemble de roues robustes qui offrent plus de traction lors du ramassage des blocs."
+				},
+				{
+					"content": "Une fois que nous avons atteint la dernière étape d'assemblage du robot, nous avons trouvé des problèmes. Apparemment, le tapis roulant et l'étagère se bloquaient. Notre première solution était d'utiliser un moteur pour déplacer l'une des deux pièces ,mais nous avions déjà utilisé le nombre maximum de moteurs. La deuxième  solution consistait d’utiliser des pistons pour déplacer les pièces. Nous avons abandonné cette idée car elle rendrait la situation plus difficile et augmenterait nos dépenses pour le robot. Nous étions alors obligés d'acheter l'équipement pour maintenir la pression d'air dans le piston et les capteurs du mécanisme pour s'assurer  que le robot fonctionne correctement. Nous avons conclu que la meilleure solution  était de retravailler les moteurs existants. Au début, le  plan était que deux des moteurs changent de rôle une fois que la première tâche est fut accomplie. Le moteur qui active le carjack qui saisit les pièces de jeu se verrouille sur la bande transporteuse et le sort du chemin une fois que le carjack a atteint un certain point. Le moteur qui actionne l'ascenseur a un joint à cliquet qui  tirerait l'étagère vers l'arrière pour permettre aux blocs de tomber une fois que l'ascenseur aurait atteint une certaine hauteur."
+				}
 			]
 		}
 	}

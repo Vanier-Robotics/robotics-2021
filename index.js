@@ -65,6 +65,20 @@ function generate_roster(langs, roster) {
 	})
 }
 
+function generate_robot(langs, robot) {
+	langs.forEach(lang => {
+		generate(`build/${lang}/robot`,
+		"index.html",
+		"src/pug/pages/text-page.pug",
+		{
+			lang:lang,
+			text:robot,
+		}
+		
+		)
+	})
+}
+
 function generate_map(langs) {
 	langs.forEach(lang => {
 		generate(
@@ -79,7 +93,7 @@ function main() {
 	var archives = get_archives()
 	var roster = get_members();
 	let articles = [
-		archives.kiosk, archives.video, archives.journalism
+		archives.build, archives.kiosk, archives.video, archives.journalism
 	];
 	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {})
 	generate_archives(langs, articles)

@@ -30,6 +30,11 @@
 	display: flex;
 	min-width: 100%;
 	box-sizing: border-box;
+	& > p {
+		display:flex;
+		flex-wrap: wrap;
+		
+	}
 }
 .paragraph:not(:last-child) {
 	margin-bottom: 1em;

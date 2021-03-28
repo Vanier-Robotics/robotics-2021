@@ -1,11 +1,11 @@
 #map-page {
-	background-image: url("/assets/images/backgrounds/romanempire.png");
-}
+	background-image: url("/assets/images/backgrounds/romanempire2.png");
+	overflow: initial;
+	background-size: initial;
+	background-color: #f2f5cf;
+	background-position: 0px 0px;
+	// min-height: initial;
 
-#map {
-	position  : relative;
-	min-height: 100vh;
-	min-width : 100vw;
 }
 
 .link {
@@ -58,16 +58,16 @@
 }
 
 .amphitheatre {
-	top : 565px;
-	left: 550px;
+	top: 570px;
+	left: 500px;
 }
 
 .warfront {
-	top : 565px;
-	left: 850px;
+	top: 580px;
+	left: 860px;
 }
 
 .archives {
-	top : 680px;
-	left: 810px;
+	top: 685px;
+	left: 825px;
 }
