@@ -24,7 +24,9 @@ function getCookie(cname) {
 
 function checkCookie() {
 	var language = getCookie("language");
-	window.location.pathname = `/${language}`;
+	if (language == "en" || language == "fr"){
+		window.location.pathname = `/${language}`;
+	}
 }
 toggle = function () {
 	document.getElementById("navbar").classList.toggle("visible");
