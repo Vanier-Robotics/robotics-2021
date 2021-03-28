@@ -33,6 +33,15 @@
 
 .emperor2 {}
 
+.logos {
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 0.5em;
+	border-bottom-right-radius: 1em;
+}
 .crclogo {
 	position  : fixed;
 	top       : 0px;
