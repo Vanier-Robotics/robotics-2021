@@ -26,4 +26,7 @@ li.archive-nav-item a {
 	&:hover {
 		background-color: darken($color: tan, $amount: 20);
 	}
+	&.active {
+		background-color: darken($color: rgb(231, 152, 49), $amount: 20)
+	}
 }
