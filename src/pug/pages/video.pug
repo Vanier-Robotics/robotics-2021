@@ -1,0 +1,10 @@
+extends ../template
+
+block content
+	for n in videos
+		.article
+			h1.title=n.title[lang]
+			.paragraph 
+				iframe.video(src=n.src, frameborder="0", allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen) 
+
+

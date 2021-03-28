@@ -8,11 +8,6 @@
 		"paragraphs": {
 			"en": [
 				{
-					"imgs": [
-						{
-							"src": "CRC logo.png"
-						}
-					],
 					"content": "If you are unaware, the CRC refers to the Canadian Robotics Competition, a yearly competition in which different high schools as well as colleges participate; it lasts for a total of 3 days during the month of February. However, this year, due to the pandemic, it was reported to April. This would give students more time to prepare since there are many difficulties that are faced when working over a computer screen. The students are asked to prepare a robot to play a complex game, a kiosk to showcase their school, a video presenting a storyline, a complete website with its journalism, and even programming. These components of the competition put into practice both their creativity and their knowledge of robotics and science. Starting in 2001, the CRC team has been promoting teamwork, bilingualism, and the learning of multidisciplinary skills in science, mathematics, computers,  Most importantly, CRC volunteers reach as many people as possible—mostly students—and spark some interest towards the science, technology, engineering, and mathematics fields."
 				},
 				{
@@ -20,13 +15,6 @@
 				}
 			],
 			"fr": [
-				{
-					"imgs": [
-						{
-							"src": "CRC logo.png"
-						}
-					]
-				},
 				{
 					"content": "Si vous ne le savez pas, la CRC fait référence à la Compétition Canadienne de Robotiques, une compétition annuelle auquelle participent différentes écoles secondaires et cégeps; elle dure 3 jours durant le mois de février. Les étudiants sont invités à préparer un robot pour jouer à un jeu complexe, un kiosque pour présenter leur école, une vidéo présentant une histoire, un site Web avec son journalisme et même de la programmation. Ces composantes de la compétition mettent en pratique à la fois la créativité et les connaissances en robotique et en science. Depuis 2001, l'équipe de CRC fait la promotion du travail d'équipe, du bilinguisme et de l'apprentissage de compétences multidisciplinaires en sciences, mathématiques, informatiques, arts et en langues. Plus important encore, ils veulent atteindre autant de personnes que possible - principalement des étudiants - et susciter un certain intérêt pour les domaines des sciences, de la technologie, de l'ingénierie et des mathématiques."
 				},

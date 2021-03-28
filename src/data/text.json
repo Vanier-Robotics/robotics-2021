@@ -30,6 +30,10 @@
 			"crc": {
 				"en": "War Front",
 				"fr": "Ligne de Front"
+			},
+			"tutorial": {
+				"en":"Tutorial",
+				"fr": "Tutoriel"
 			}
 		}
 	},
@@ -107,8 +111,8 @@
 				"fr": "Artillerie - Robot"
 			},
 			"archives":{
-				"en": "Archives",
-				"fr": "Archives"
+				"en": "Archives - Journalism",
+				"fr": "Archives - Journalisme"
 			},
 			"video": {
 				"en":"Amphitheatre - Video",

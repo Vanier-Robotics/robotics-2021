@@ -8,6 +8,7 @@
 	}
 	z-index: 999;
 	width: 28em;
+	filter: drop-shadow(0 0 0.5rem black);
 }
 #navlist {
 	& > * {
@@ -106,14 +107,18 @@
 	background-size: cover;
 	position: relative;
 	box-sizing: border-box;
+	
 }
 
 .bubble-top {
 	// background-image: url("/assets/images/scrolls/scroll top.png");
 	outline: 1px solid black;
+	z-index: 10;
+	
 }
 .bubble-bottom{
 	// background-image: url("/assets/images/scrolls/scroll bottom.png");
+	filter: drop-shadow(0 0 0.5rem black);
 	outline: 1px solid black;
 }
 

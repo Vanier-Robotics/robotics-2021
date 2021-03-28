@@ -8,6 +8,7 @@ const members_fp = "src/data/roster/members-test.json";
 const translation_fp = "src/data/text.json";
 const robot_fp = "src/data/robot/robot.json";
 const crc_fp = "src/data/crc/crc.json";
+const video_fp = "src/data/video/video.json";
 
 function get(fp) {
 	var rawdata = fs.readFileSync(fp);
@@ -27,6 +28,9 @@ function get_robot() {
 }
 function get_crc() {
 	return get(crc_fp);
+}
+function get_video() {
+	return get(video_fp);
 }
 
 generate = function (dir, fp, src, data) {
@@ -72,15 +76,15 @@ function generate_roster(langs, roster) {
 		})
 	})
 }
-function generate_article(lang,page, articles) {
+function generate_article(lang, page, articles) {
 	generate(`build/${lang}/${page}`,
-	"index.html",
-	"src/pug/pages/text-page.pug",
-	{
-		lang: lang,
-		articles: articles,
-	}
-)
+		"index.html",
+		"src/pug/pages/text-page.pug",
+		{
+			lang: lang,
+			articles: articles,
+		}
+	)
 }
 function generate_robot(langs, robot) {
 	langs.forEach(lang => {
@@ -113,20 +117,32 @@ function generate_map(langs) {
 		)
 	})
 }
+function generate_video (langs, video) {
+	langs.forEach(lang => {
+		generate(
+			`build/${lang}/video`,
+			"index.html",
+			"src/pug/pages/video.pug",
+			{lang:lang, videos:video}
+		)
+	})
+}
 function main() {
 	var archives = get_archives()
 	var roster = get_members();
 	var robot = get_robot();
 	var crc = get_crc();
+	var video = get_video();
 	let articles = [
 		archives.build, archives.kiosk, archives.video, archives.journalism
-	];	
+	];
 	generate(`build`, `index.html`, `src/pug/pages/landingpage.pug`, {});
 	generate_map(langs);
 	generate_archives(langs, articles);
 	generate_roster(langs, roster);
 	generate_robot(langs, robot);
 	generate_crc(langs, crc);
+	generate_video(langs, video)
 	console.log("Generated Website!");
 }
 let langs = ["en", "fr"];

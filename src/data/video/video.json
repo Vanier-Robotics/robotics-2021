@@ -1,0 +1,16 @@
+[
+	{
+		"title": {
+			"en":"Video",
+			"fr": "Vidéo"
+		},
+		"src": "https://www.youtube.com/embed/0R_Lma15_xQ"
+	},
+	{
+		"title": {
+			"en":"Tutorial",
+			"fr": "Tutoriel"
+		},
+		"src": "https://www.youtube.com/embed/0R_Lma15_xQ"
+	}
+]

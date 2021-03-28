@@ -120,6 +120,10 @@ img.left {
 	font-weight: bold;
 	text-decoration: underline;
 }
+iframe.video {
+	min-width: 100%;
+	min-height: 70vh;
+}
 
 @media screen and (max-width: 1200px),
 (pointer: coarse) {
