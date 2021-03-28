@@ -34,6 +34,7 @@ function get_video() {
 }
 
 generate = function (dir, fp, src, data) {
+	dir = dir.toLowerCase()
 	if (!fs.existsSync(dir)) {
 		fs.mkdirSync(dir, { recursive: true });
 	}
