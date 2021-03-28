@@ -3,9 +3,9 @@ html
 	include ../includes/mixins.pug
 body#map-page
 	#map.desktop 
-		+maplink("roster", text.map.links.roster[lang], "militia")
+		+maplink("roster/captain", text.map.links.roster[lang], "militia")
 		+maplink("robot", text.map.links.robot[lang], "artillery")
-		+maplink("video", text.map.links.video[lang], "amphitheatre")
+		//- +maplink("video", text.map.links.video[lang], "amphitheatre")
 		+maplink("crc", text.map.links.crc[lang], "warfront")
 		+maplink("archives", text.map.links.archives[lang], "archives")
 	#mobile-map.mobile 
@@ -14,6 +14,6 @@ body#map-page
 		.selector.center.column.map
 			+mobileMapLink("roster/captain", text.map.links.roster[lang])
 			+mobileMapLink("robot", text.map.links.robot[lang])
-			+mobileMapLink("video", text.map.links.video[lang])
+			//- +mobileMapLink("video", text.map.links.video[lang])
 			+mobileMapLink("crc", text.map.links.crc[lang])
 			+mobileMapLink("archives", text.map.links.archives[lang])
