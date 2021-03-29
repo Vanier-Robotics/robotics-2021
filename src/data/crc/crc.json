@@ -130,7 +130,7 @@
 				},
 				{
 					"subby": "Les cartes de construction:",
-					"content": "Une carte de construction possède:<span class='break'></span><div class='row'><div class='col-9'><ol><li>Un numéro de carte</li><li>La structure vue de face et vue isométrique</li><li>Le pointage de la carte</li><li>Le niveau de difficulté</li></ol><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div></div></div>La carte de construction doit être choisie—parmi les 25 disponibles—par l'équipe avant le début d'une manche. Une carte réussie ne peut être utilisée qu'une seule fois dans le même bloc de parties. Si la carte est échouée, une équipe peut l'utiliser autant de fois qu'elle le souhaite."
+					"content": "Une carte de construction possède:<span class='break'></span><div class='row'><div class='col-9'><ol><li>Un numéro de carte</li><li>La structure vue de face et vue isométrique</li><li>Le pointage de la carte</li><li>Le niveau de difficulté</li></ol></div><div class='col-2'><img class='img-responsive' src='/assets/images/articles/gamecard.png'></div></div>La carte de construction doit être choisie—parmi les 25 disponibles—par l'équipe avant le début d'une manche. Une carte réussie ne peut être utilisée qu'une seule fois dans le même bloc de parties. Si la carte est échouée, une équipe peut l'utiliser autant de fois qu'elle le souhaite."
 				},
 				{
 					"subby": "Marquer des Points:",

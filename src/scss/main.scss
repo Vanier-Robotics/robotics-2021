@@ -73,5 +73,10 @@ a {
 	.window {
 		width     : 100vw;
 		margin-top: 0;
+		height: 90vh;
+	}
+	body {
+		max-height: 100vh;
+		overflow-y         : auto;
 	}
 }
