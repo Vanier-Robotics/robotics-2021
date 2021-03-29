@@ -123,5 +123,9 @@
 				"fr": "Ligne de Front - Invicta"
 			}
 		}
+	},
+	"error404":{
+		"en": "Error 404: You seem lost",
+		"fr":"Erreur 404: Vous semblez perdus"
 	}
 }

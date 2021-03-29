@@ -144,6 +144,15 @@ function main() {
 	generate_robot(langs, robot);
 	generate_crc(langs, crc);
 	generate_video(langs, video)
+	langs.forEach(lang => {
+		generate(
+			`build/${lang}/error`,
+			"index.html",
+			"src/pug/pages/404.pug",
+			{lang:lang}
+		)
+	})
+	generate(`build/`, "404.html", "src/pug/pages/404.pug", {})
 	console.log("Generated Website!");
 }
 let langs = ["en", "fr"];

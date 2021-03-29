@@ -29,6 +29,12 @@ function checkCookie() {
 		window.location.pathname = `/${language}`;
 	}
 }
+function error_re(){
+	var language = getCookie("language");
+	if (language == "en" || language == "fr"){
+		window.location.pathname = `/${language}/error`;
+	}
+}
 toggle = function () {
 	document.getElementById("navbar").classList.toggle("visible");
 }

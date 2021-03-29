@@ -1,0 +1,25 @@
+html
+	include ../includes/head.pug
+	include ../includes/mixins.pug
+body#map-page
+	#map.desktop 
+		h1.error=text.error404[lang]
+		+maplink("roster/captain", text.map.links.roster[lang], "militia")
+		+maplink("robot", text.map.links.robot[lang], "artillery")
+		+maplink("video", text.map.links.video[lang], "amphitheatre")
+		+maplink("crc", text.map.links.crc[lang], "warfront")
+		+maplink("archives", text.map.links.archives[lang], "archives")
+		.logos
+			a.grayscale(href="https://robo-crc.ca/")
+				img(src="/assets/images/logos/crclogo.png" height="100px" width="100px")
+			a.grayscale(href="https://www.vaniercollege.qc.ca/")
+				img(src="/assets/images/logos/vanier roboticslogo.png" height="100px" width="100px")
+	#mobile-map.mobile 
+		//- .selector-header 
+		//- 	h1.error=text.error404[lang]
+		.selector.center.column.map
+			+mobileMapLink("roster/captain", text.map.links.roster[lang])
+			+mobileMapLink("robot", text.map.links.robot[lang])
+			//- +mobileMapLink("video", text.map.links.video[lang])
+			+mobileMapLink("crc", text.map.links.crc[lang])
+			+mobileMapLink("archives", text.map.links.archives[lang])
