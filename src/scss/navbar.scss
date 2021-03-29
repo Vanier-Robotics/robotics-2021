@@ -141,7 +141,10 @@
 
 @media only screen and (max-width: 1200px) {
 	.bubble {
-		height: 3.5em;
+		height      : 5vh;
+		border-left : 30px solid #ffffff;
+		border-right: 30px solid #ffffff;
+		outline: 1px solid black;
 	}
 
 	.bubble-bottom {
@@ -171,15 +174,16 @@
 	}
 
 	.navtoggle {
-		min-width    : 8rem;
-		min-height   : 8rem;
-		padding      : 1rem;
-		font-size    : 5rem !important;
+		min-width : 8rem;
+		min-height: 8rem;
+		padding   : 1rem;
+		font-size : 5rem !important;
 	}
+
 	.navimg {
-		max-height   : 5rem;
-		max-width    : 5rem;
-		margin-right : 1em;
+		max-height  : 5rem;
+		max-width   : 5rem;
+		margin-right: 1em;
 	}
 
 }

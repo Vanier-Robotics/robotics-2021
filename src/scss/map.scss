@@ -5,7 +5,6 @@
 	background-color: #f2f5cf;
 	background-position: 0px 0px;
 	// min-height: initial;
-
 }
 
 .link {
@@ -70,4 +69,10 @@
 .archives {
 	top: 710px;
 	left: 740px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#map-page {
+		background-size: cover;
+	}
 }
